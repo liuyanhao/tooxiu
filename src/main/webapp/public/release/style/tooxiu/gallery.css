@@ -1,0 +1,109 @@
+.flower-item {
+    position: relative;
+    width: 100%;
+    height: 410px;
+    overflow: hidden;
+    background-color: #000
+}
+
+.flower-item .btn {
+    display: none;
+    position: absolute;
+    height: 380px;
+    line-height: 380px;
+    text-align: center;
+    background: #000;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    outline: 0
+}
+
+.flower-item .prev {
+    left: 0
+}
+
+.flower-item .next {
+    right: 0
+}
+
+.flower-item .prev i {
+    background-position: 0 -84px
+}
+
+.flower-item .next i {
+    background-position: -57px -84px
+}
+
+.flower-item .btn i {
+    width: 55px;
+    height: 111px;
+    *position: relative;
+    *top: 50%;
+    *margin-top: -55px
+}
+
+.icon-commmon {
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../../images/tooxiu/slideArrow.png) 0 0 no-repeat;
+    opacity: .5
+}
+
+.flower-item .btn:hover .icon-commmon {
+    opacity: 1
+}
+
+.flower-item .loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -17px 0 0 -17px
+}
+
+.dot {
+    position: absolute;
+    bottom: 8%;
+    right: 20px;
+    margin-left: -530px;
+    text-align: center
+}
+
+.dot span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-right: 1px;
+    background-color: #999;
+    cursor: pointer;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+    margin-right: 7px
+}
+
+.dot .cur {
+    background: #ffcd4c;
+    position: relative;
+    -webkit-border-radius: 38%;
+    -moz-border-radius: 38%;
+    border-radius: 38%;
+    width: 16px
+}
+
+.fade-type li {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 410px
+}
+
+.fade-type a {
+    display: block;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center
+}

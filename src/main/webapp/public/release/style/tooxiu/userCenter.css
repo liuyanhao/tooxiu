@@ -1,0 +1,4886 @@
+@charset "UTF-8";.overflow-hide {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis
+}
+
+.content-nav {
+    text-align: center;
+    height: 135px;
+    margin-top: 0;
+    border-bottom: 2px solid #000
+}
+
+.content-nav .current .nav-Triangle {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background: #fff;
+    top: auto;
+    bottom: -6px;
+    left: 50%;
+    margin-left: -6px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -263px -6px
+}
+
+.MySubscription {
+    padding-bottom: 0;
+    min-height: 385px;
+    max-width: inherit
+}
+
+.content-nav .remind {
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    background: red;
+    position: absolute;
+    top: 1px;
+    right: -6px;
+    line-height: 15px;
+    color: #fff;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -242px -23px\9
+}
+
+.content-nav .c-ion {
+    margin: 7px auto;
+    width: 42px;
+    height: 42px;
+    display: block
+}
+
+.drag-movediv .c-ion {
+    margin: 7px auto;
+    width: 41px;
+    height: 41px;
+    display: block
+}
+
+.conter-item .lock {
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    *zoom:1}
+
+#content-nav-btn {
+    position: relative;
+    margin: 0 auto;
+    height: 135px;
+    overflow: hidden;
+    z-index: 3;
+    *zoom:1}
+
+#content-nav-btn>#nav-left {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    right: 0;
+    width: 44px;
+    height: 74px;
+    margin-top: -37px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) #fff no-repeat -512px 12px;
+    cursor: pointer
+}
+
+#content-nav-btn>#nav-left:hover {
+    background-position: -512px -89px
+}
+
+#content-nav-btn>span.nav-right {
+    background-position: -475px 12px!important
+}
+
+#content-nav-btn>span.nav-right:hover {
+    background-position: -473px -89px!important
+}
+
+.content-nav ul {
+    *display: block;
+    width: 3000px;
+    *zoom:1;margin: 0 auto;
+    position: absolute;
+    overflow: hidden;
+    height: 109px;
+    padding-bottom: 26px
+}
+
+.Mydiction-dis {
+    z-index: 2;
+    width: 124.4px;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.conter-item {
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    *display: inline;
+    width: 126px;
+    color: #e4e4e4;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.Mydiction-dis>i,.conter-item>i {
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    right: 0;
+    width: 1px;
+    height: 70px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -449px 12px
+}
+
+.Mydiction-dis>a {
+    color: #000;
+    text-decoration: none;
+    padding: 33px 0;
+    display: block;
+    height: 69px;
+    background: #fff;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.conter-item>a {
+    color: #000;
+    text-decoration: none;
+    padding: 33px 0;
+    display: block;
+    height: 69px;
+    background: #fff;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    *padding: 24px 0 10px 0;
+    *margin-top: 10px
+}
+
+.topZindex .nav_bgcolor {
+    *zoom:1;z-index: 4
+}
+
+.login-form {
+    margin-top: 35px
+}
+
+.notLogin-left {
+    border-right: 1px solid #ccc
+}
+
+.notLogin-left .tit-l {
+    display: inline-block;
+    *display: inline;
+    *float: left;
+    *line-height: 35px
+}
+
+.notLogin-left li {
+    height: 55px
+}
+
+.login-form input.text-input {
+    *vertical-align: inherit;
+    padding: 8px 5px;
+    display: block;
+    width: 95%
+}
+
+.login-form .tit-l {
+    width: 46%;
+    text-align: right;
+    font-size: 14px
+}
+
+.login-form .small-search {
+    height: auto;
+    width: 40%;
+    overflow: hidden
+}
+
+.login-form .login-tit {
+    border-bottom: 2px solid #000;
+    padding-bottom: 7px
+}
+
+.login-tit span {
+    font-size: 24px;
+    font-family: 'Microsoft YaHei'
+}
+
+.login-tit a {
+    float: right;
+    padding: 5px 12px;
+    background: #e9e9e9;
+    font-size: 12px;
+    color: #666;
+    margin-top: 4px;
+    *display: inline
+}
+
+.vbh {
+    visibility: hidden
+}
+
+.setup .small-search {
+    border: none
+}
+
+.setup .small-search a {
+    float: right;
+    color: #666;
+    text-decoration: underline
+}
+
+.login-form .checkbox {
+    cursor: pointer
+}
+
+.login-form .checkbox>span {
+    border: 1px solid #bbb;
+    display: inline-block;
+    *display: inline;
+    zoom:1;width: 11px;
+    height: 11px;
+    vertical-align: middle;
+    margin-right: 5px;
+    cursor: pointer
+}
+
+.login-form .btn-input-big {
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    height: 40px
+}
+
+.login-form .top {
+    padding: 19px 0
+}
+
+.login-form form {
+    display: inline-block;
+    *display: inline;
+    *zoom:1;width: 58%
+}
+
+.login-form .notLogin-right {
+    display: inline-block;
+    *display: inline;
+    *zoom:1;padding-top: 0;
+    width: 30%;
+    text-align: left;
+    zoom:1;padding-left: 70px
+}
+
+.notLogin-right p {
+    font-size: 12px;
+    padding-top: 15px;
+    line-height: normal
+}
+
+.notLogin-right p a {
+    color: #1289f1
+}
+
+.notLogin-right p em {
+    padding: 0 15px
+}
+
+.notLogin-right {
+    position: relative
+}
+
+.notLogin-right #use-help {
+    margin-left: 10px
+}
+
+.login-form .istrue>span {
+    background: #fff;
+    border: 1px solid #6d79fd;
+    *background: #c7cbf9
+}
+
+.login-form .istrue>span>i {
+    position: relative;
+    background: #4e91fa;
+    display: block;
+    width: 9px;
+    height: 9px;
+    top: 1px;
+    left: 1px
+}
+
+.notLogin-left .notpadd {
+    padding: 0;
+    height: 40px
+}
+
+.notLogin-left .notpadd.setup {
+    height: 48px
+}
+
+.Login-content .login-form .main {
+    padding: 0 6% 70px;
+    *zoom:1;border-bottom: 0
+}
+
+#login .login-layer {
+    position: relative;
+    padding-bottom: 65px
+}
+
+.Login-content .login-form .bottom {
+    position: relative;
+    top: -16px;
+    padding: 0 0
+}
+
+.Login-content .login-form .bottom>p {
+    display: inline-block;
+    background: #fff;
+    padding: 0 10px
+}
+
+.fR {
+    float: right
+}
+
+.fl {
+    float: left
+}
+
+.dictionblock {
+    margin: 0 auto;
+    padding-bottom: 80px;
+    max-width: inherit
+}
+
+.pbottom {
+    padding-bottom: 80px
+}
+
+.signIn .top {
+    text-align: center;
+    padding: 10px 0
+}
+
+.signIn .warning a {
+    text-decoration: underline;
+    color: #fff
+}
+
+.signIn .warning a:hover {
+    background: 0 0
+}
+
+.MySubscription-top .fR {
+    background: #888;
+    color: #fff;
+    padding: 4px 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer
+}
+
+.MySubscription-top .fR:hover {
+    background: #666
+}
+
+.MySubscription-top .seeCustomized {
+    margin-right: 10px
+}
+
+.MySubscription-top .tit {
+    font-family: 'Microsoft YaHei';
+    font-size: 18px
+}
+
+.MySubscription .tip-show {
+    margin: 0 auto;
+    width: 80%;
+    line-height: 24px;
+    padding: 50px 0 40px 0;
+    background: url(../../../images/tooxiu/userCenter/TransparentLine.png?v=e266a08491) no-repeat center bottom
+}
+
+.tip-show span {
+    font-weight: 700
+}
+
+.tip-show p {
+    display: block;
+    margin: 0 auto;
+    text-align: left
+}
+
+.tip-show p img {
+    float: left;
+    width: 48px;
+    height: 48px;
+    margin-right: 15px
+}
+
+.noSubscription .priorityFl {
+    border: 5px solid #dadada;
+    position: relative
+}
+
+.noSubscription .priorityFl img {
+    width: 100%
+}
+
+.noSubscription .priorityImg {
+    padding: 35px 20px 70px 20px;
+    text-align: center
+}
+
+.noSubscription .tipImg {
+    width: 18%;
+    margin-right: 9%;
+    display: inline-block;
+    *display: inline;
+    *zoom:1}
+
+.noSubscription .tipImg-n {
+    padding-top: 36px;
+    position: relative;
+    margin-right: 0
+}
+
+.noSubscription .tipImg-n>p {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.noSubscription .center-info-tip>p>span {
+    font-size: 18px;
+    font-family: "Microsoft YaHei"
+}
+
+.tipImg p {
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    text-align: left;
+    white-space: nowrap
+}
+
+.tipImg p>span {
+    font-family: 'Times New Roman';
+    vertical-align: bottom;
+    vertical-align: inherit;
+    font-size: 24px;
+    padding-right: 10px;
+    font-weight: 700
+}
+
+.tipImg .arrow-gray-bg {
+    position: absolute;
+    top: 50%;
+    right: -48%;
+    width: 80px;
+    height: 60px;
+    margin-top: -30px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -86px -316px
+}
+
+.floatBlock>div {
+    width: 49.2%;
+    float: left;
+    margin-top: 38px
+}
+
+.floatBlock>div.fR {
+    float: right
+}
+
+.dictionblock .MySubscription {
+    height: auto;
+    width: 100%;
+    margin: 0 auto
+}
+
+.MySubscription-top {
+    padding-top: 16px
+}
+
+.paddLeft10 {
+    padding-left: 10px
+}
+
+.paddRight10 {
+    padding-right: 10px
+}
+
+.floatBlock {
+    margin: 0 auto
+}
+
+.floatBlock>div>.blockTip {
+    text-align: center;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 50px 0;
+    margin: 60px 0 72px
+}
+
+.dictionblock .blockTit {
+    padding: 10px 0 10px;
+    height: 40px;
+    overflow: hidden;
+    border-top: 2px solid #000
+}
+
+.blockTip>i {
+    display: inline-block;
+    *display: inline;
+    *zoom:1;width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 20px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -220px -340px
+}
+
+.onTrial-info-h .p-warning>i {
+    display: inline-block;
+    *display: inline;
+    *zoom:1;width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 20px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -220px -340px
+}
+
+.onTrial-info-h .p-warning>span {
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    vertical-align: middle
+}
+
+.blockTip span {
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    vertical-align: middle
+}
+
+.blockTit>span {
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    vertical-align: middle
+}
+
+.blockTit a {
+    line-height: 35px;
+    color: #666;
+    font-family: Tahoma
+}
+
+.blockTit span.btn-Fn {
+    font-family: '宋体';
+    font-size: 14px;
+    display: inline-block;
+    *display: inline;
+    background: #aaa;
+    padding: 5px 20px;
+    color: #fff;
+    cursor: pointer
+}
+
+.blockTit span.btn-Fn:hover,.blockTit span.current {
+    background: #000
+}
+
+.blockTit>span.tit {
+    margin-right: 25px
+}
+
+.MyAccount-ul li {
+    line-height: 40px;
+    height: 40px;
+    padding-left: 15px;
+    border-bottom: 1px dotted #ccc
+}
+
+.MyAccount-ul li .red {
+    font-family: Tahoma;
+    font-weight: 700
+}
+
+.MyAccount-ul .ms-quanxian-p {
+    height: auto;
+    line-height: 20px;
+    padding: 10px 0 10px 15px
+}
+
+.infoShow .bold {
+    font-family: Tahoma;
+    font-weight: 700
+}
+
+.MyAccount-ul li .address {
+    padding-left: 10%
+}
+
+.MyAccount-ul li.infoShow {
+    line-height: 40px;
+    height: auto;
+    height: 85px;
+    overflow: hidden;
+    padding-bottom: 20px
+}
+
+.infoShow .left {
+    border-right: 1px solid #ddd;
+    float: left;
+    width: 65%
+}
+
+.infoShow div.right {
+    float: left;
+    width: 34%;
+    position: relative;
+    height: 100%
+}
+
+.infoShow .left h6 {
+    font-family: 'Microsoft YaHei';
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis
+}
+
+.infoShow .left p {
+    color: #666;
+    line-height: 30px;
+    padding-top: 11px
+}
+
+.infoShow .right p {
+    position: absolute;
+    text-align: center;
+    line-height: 12px;
+    width: 105px;
+    height: 105px;
+    -webkit-border-radius: 105px;
+    -moz-border-radius: 105px;
+    border-radius: 105px
+}
+
+body .infoShow .left img.fl {
+    margin-right: 15px;
+    width: 80px;
+    height: 80px
+}
+
+.service>div {
+    text-align: justify;
+    width: 34%;
+    height: 50px;
+    background: #f9f9f9;
+    padding: 20.55% 7.68% 8%;
+    overflow: hidden
+}
+
+.left-s {
+    position: relative;
+    line-height: 20px
+}
+
+.left-s p {
+    width: 145px;
+    margin: 0 auto
+}
+
+.right-s p {
+    margin: -10px auto 0;
+    width: 145px
+}
+
+.left-s em {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 18%;
+    left: 50%;
+    margin-left: -30px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -230px -230px
+}
+
+.right-s em {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 18%;
+    left: 50%;
+    margin-left: -30px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -230px -230px
+}
+
+.right-s em.icon {
+    background-position: -170px -230px
+}
+
+.left-s .telText {
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    letter-spacing: 10px
+}
+
+.left-s .tel {
+    font-family: 'Times New Roman';
+    font-size: 24px
+}
+
+.service>.right-s {
+    position: relative;
+    background: #f5fafe
+}
+
+.right-s .blue-1 {
+    display: block;
+    text-align: center;
+    color: #1d86e1;
+    font-family: 'Microsoft YaHei';
+    font-size: 18px
+}
+
+.right-s .blueBtn {
+    display: block;
+    text-align: center;
+    color: #1d86e1;
+    font-family: '宋体';
+    font-size: 12px;
+    line-height: 25px;
+    margin: 0 auto;
+    background: #1b9dfa;
+    color: #fff;
+    width: 106px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px
+}
+
+.ChatOnline:hover {
+    background: #1d86e1
+}
+
+.Scroll-Subscription {
+    display: block;
+    position: relative
+}
+
+.Scroll-Subscription>li {
+    float: left;
+    width: 100%
+}
+
+.imgFrame {
+    width: 25%;
+    float: left;
+    padding-top: 17px
+}
+
+#Subscription-wrap .del-border {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -1px;
+    left: -1px;
+    border: 1px solid #000;
+    display: none
+}
+
+.img-div>img {
+    width: 100%;
+    cursor: pointer
+}
+
+.imgFrame .del-border>span {
+    cursor: pointer
+}
+
+.imgFrame .del-btn {
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -290px -230px;
+    position: absolute;
+    top: -12px;
+    right: -10px;
+    width: 40px;
+    height: 40px;
+    display: none;
+    cursor: pointer
+}
+
+.img-div>p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    line-height: 24px;
+    background: #000;
+    background: rgba(0,0,0,.74);
+    padding: 0 10px;
+    color: #fff
+}
+
+.Subscription {
+    position: relative
+}
+
+.Subscription>.btn {
+    position: absolute;
+    width: 40px;
+    height: 150px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) #fff no-repeat;
+    top: 50%;
+    margin-top: -75px
+}
+
+.Subscription a.Scroll-btn-left,.Subscription a.Scroll-btn-right {
+    opacity: .5
+}
+
+.Subscription .Scroll-btn-left {
+    left: -40px;
+    background-position: 0 -230px
+}
+
+.Subscription a.Scroll-btn-left:hover,.Subscription a.Scroll-btn-right:hover {
+    opacity: 1
+}
+
+.Subscription .Scroll-btn-right {
+    opacity: .8;
+    right: -40px;
+    background-position: -41px -230px
+}
+
+.Subscription .Scroll-btn {
+    position: absolute;
+    top: -25px;
+    right: 257px;
+    cursor: pointer
+}
+
+.Scroll-btn-dots>li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    margin: 6px 4px;
+    background: #dbdbdb
+}
+
+.Scroll-btn-dots>li.Scroll-btn-left {
+    margin: 0 4px 0 0;
+    padding: 6px;
+    border: 1px solid #bbb;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) #fff no-repeat -20px 0
+}
+
+.Scroll-btn-dots>li.Scroll-btn-left:hover {
+    border-color: #1d86e2;
+    background-position: -300px -20px
+}
+
+.Scroll-btn-dots>li.Scroll-btn-right {
+    margin: 0 0 0 4px;
+    padding: 6px;
+    *padding: 6px 10px 6px;
+    border: 1px solid #bbb;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) #fff no-repeat -320px -20px;
+    *zoom:1}
+
+.Scroll-btn-dots>li.Scroll-btn-right:hover {
+    border-color: #1d86e2;
+    background-position: 0 0
+}
+
+.Scroll-btn-dots>li.current {
+    background: #1d87df
+}
+
+.radius10 {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px
+}
+
+.Collection-Li>li,.Footprint-Li>li {
+    float: left;
+    width: 33%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+    cursor: pointer
+}
+
+.Collection-Li>li>a>img,.Footprint-Li>li img {
+    width: 100%
+}
+
+.Collection-p {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.49);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+    display: none;
+    font-size: 12px
+}
+
+.Collection-p>span {
+    display: block;
+    margin: 0 10%
+}
+
+.Collection-p>span.co-tit {
+    border-bottom: 1px solid #fff;
+    margin-top: 16%
+}
+
+.marginOne {
+    margin-right: 1px
+}
+
+.Collection-p>span.co-text {
+    border-bottom: 1px solid #fff;
+    line-height: 18px;
+    padding: 6px 0;
+    max-height: 35px;
+    overflow: hidden
+}
+
+.dictionblock .MyCollection .blockShow,.dictionblock .MyFootprint .blockShow {
+    width: 100%;
+    overflow: auto
+}
+
+.dictionblock .blockShow {
+    height: 282px;
+    overflow: hidden
+}
+
+.floatBlock p.loaderBg {
+    height: 282px
+}
+
+.table-ul>li {
+    float: left;
+    overflow: hidden;
+    line-height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis
+}
+
+.table-ul>li.time {
+    width: 14%;
+    border-right: 1px solid #eee;
+    text-indent: 3%
+}
+
+.table-ul>li.con-info {
+    text-indent: 20px;
+    width: 50%;
+    border-right: 1px solid #eee
+}
+
+.table-ul>li.operation {
+    width: 15%
+}
+
+.table-ul>li.search-type {
+    text-align: center;
+    width: 20%;
+    border-right: 1px solid #eee
+}
+
+.table-ul>li>span.icon {
+    padding-left: 20px;
+    display: block;
+    width: 25px;
+    margin: 0 auto;
+    height: auto;
+    color: #888;
+    position: relative;
+    background: 0 0
+}
+
+.table-ul>li>span.icon em {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 0;
+    margin-top: -10px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -60px 0
+}
+
+.table-ul.table-border:hover>li>span.icon {
+    text-decoration: none;
+    color: #000
+}
+
+.table-ul.table-border:hover>li>span.icon em {
+    background-position: -81px 0
+}
+
+.table-ul.bg {
+    background: #f7f7f7
+}
+
+.table-ul>li.Order-num {
+    width: 20%;
+    border-right: 1px solid #eee;
+    text-align: center
+}
+
+.table-ul>li.Order-info {
+    width: 44%;
+    border-right: 1px solid #eee;
+    text-align: center
+}
+
+.table-ul>li.state {
+    width: 20%;
+    border-right: 1px solid #eee;
+    text-align: center
+}
+
+.table-ul>li.Message-info {
+    width: 56%;
+    border-right: 1px solid #eee;
+    padding-left: 8%;
+    position: relative
+}
+
+.table-ul>.Message-info.unread>em {
+    background-position: -120px 0
+}
+
+.table-ul.table-border>.Message-info>em {
+    background-position: -120px -1px
+}
+
+.table-ul>li.Message-info>em {
+    position: absolute;
+    top: 10px;
+    left: 3.55%;
+    width: 20px;
+    height: 20px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -100px 0
+}
+
+.table-ul>li.Message-time {
+    border-right: 1px solid #eee;
+    text-align: center;
+    width: 20%
+}
+
+body .blockShow .mCSB_inside>.mCSB_container {
+    margin-right: 5px
+}
+
+.subscription-con-nav {
+    margin: 0 auto;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    position: relative;
+    z-index: 2
+}
+
+.subscription-con-nav>.tit {
+    margin-top: 30px;
+    position: relative
+}
+
+.subscription-con-nav>.tit .switchShow {
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    margin-left: -65px
+}
+
+.yehei24 {
+    font-family: "Microsoft YaHei";
+    font-size: 24px
+}
+
+.subscription-con-nav>.tit>a {
+    float: right;
+    background: #666;
+    color: #fff;
+    padding: 5px 18px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px
+}
+
+.subscription-con-nav>.nav-tit {
+    position: absolute;
+    width: 95px;
+    height: 20px;
+    line-height: 16px;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    left: 50%;
+    margin-left: -47px;
+    bottom: -22px;
+    background: #fff;
+    text-align: center;
+    cursor: pointer
+}
+
+.subscription-con-nav>.tit>a:hover {
+    background: #333;
+    text-decoration: none
+}
+
+.subscription-con-nav>.con-type {
+    margin-top: 17px
+}
+
+.con-type>.fl-type {
+    float: left;
+    padding: 0 8px;
+    border: 1px solid #dadada;
+    height: 24px;
+    line-height: 24px;
+    color: #666;
+    cursor: pointer;
+    background: #fafafa
+}
+
+.fl-type .del {
+    display: none
+}
+
+.con-type>.nbsp {
+    margin: 0 10px 10px 0
+}
+
+.con-type>.fl-type>span {
+    float: left;
+    position: relative;
+    overflow: hidden
+}
+
+.con-type>.fl-type>.cur-bg {
+    padding: 0 15px 0 0;
+    position: relative
+}
+
+.con-type>.fl-type>.cur-bg i {
+    position: absolute;
+    width: 15px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) #fafafa no-repeat -157px -112px
+}
+
+.con-type>.cur,.con-type>.hover {
+    border: 1px solid #0065c1;
+    background: #f5fbff;
+    color: #0065c1;
+    position: relative;
+    cursor: pointer
+}
+
+.con-type>.cur .del,.con-type>.hover .del {
+    display: none;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    right: 0;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -96px -110px
+}
+
+.con-type>.cur:hover .del,.con-type>.hover:hover .del {
+    display: block
+}
+
+.con-type>.cur>.cur-bg i,.con-type>.hover>.cur-bg i {
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -128px -112px
+}
+
+.subscription-con>.content {
+    margin-top: 38px
+}
+
+#downRecord-con .content,#favorites-con .content,#history-con .content,#searchHistory-con .content {
+    margin-top: 20px
+}
+
+#message-con .content {
+    margin-top: 30px
+}
+
+.subscription-con>.content>.left>.search {
+    display: block;
+    width: 100%;
+    border: none;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 5px;
+    cursor: pointer
+}
+
+#accountInfo-con .content {
+    margin-bottom: 80px
+}
+
+#onTrial-con .content {
+    margin-bottom: 60px
+}
+
+.onTrial-info-h {
+    margin-top: 0 0 80px
+}
+
+.subscription-con .search>input {
+    width: 93%;
+    height: 20px;
+    padding: 4px;
+    border: 1px solid #bbb;
+    font-size: 12px;
+    border: 1px solid #bbb
+}
+
+.search .search-btn:hover {
+    background: #000
+}
+
+.imgFrame>.padding {
+    padding-right: 10px;
+    color: #666
+}
+
+.subscription-con .imgFrame .img-div {
+    width: 100%;
+    min-height: 100px;
+    position: relative
+}
+
+.subscription-con .imgFrame .img-div .dots {
+    display: inline-block;
+    *display: inline;
+    padding: 0 6px;
+    vertical-align: middle
+}
+
+.subscription-con .imgFrame .overflow-hide {
+    display: block;
+    padding: 0;
+    height: 30px
+}
+
+.imgFrame .bold.overflow-hide {
+    position: relative;
+    padding-right: 47px;
+    font-size: 12px
+}
+
+#Subscription-wrap .ma10-div>p {
+    padding: 0 10px
+}
+
+.subscription-con .imgFrame .time {
+    padding-left: 15px;
+    margin-right: 5px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -263px -23px;
+    zoom:1}
+
+.subscription-con .imgFrame .blueBtn {
+    background: #1b9dfa;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    display: none;
+    font-size: 12px;
+    font-weight: 400
+}
+
+.subscription-con .imgFrame .blueBtn:hover {
+    background: #1d86e1
+}
+
+.subscription-con .loading {
+    text-align: center
+}
+
+.imgFrame .down-btn {
+    float: right;
+    width: auto;
+    display: none;
+    cursor: pointer
+}
+
+.subscription-con .type-pic .img-div {
+    position: relative
+}
+
+.subscription-con .type-pic .img-div>img {
+    height: 100%
+}
+
+.downInfo {
+    margin-right: 20px;
+    position: relative;
+    z-index: 3
+}
+
+.downInfo>a {
+    border: 1px solid #888;
+    background: #f4f4f4;
+    padding: 0 35px 0 14px;
+    position: relative;
+    text-decoration: none;
+    line-height: 30px;
+    z-index: 3;
+    display: block
+}
+
+.downInfo>a>span {
+    color: #007be5;
+    font-weight: 700
+}
+
+.down-info>.top {
+    padding-top: 10px
+}
+
+.down-info>.top>.warning {
+    display: block
+}
+
+.noborder>a {
+    border-bottom: none
+}
+
+.downInfo>.down-info {
+    padding: 10px;
+    width: 460px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    border: 1px solid #888;
+    background: #f4f4f4;
+    z-index: 2
+}
+
+.down-info-ul {
+    background: #fff
+}
+
+.down-info-ul>li {
+    float: left;
+    line-height: 30px;
+    height: auto;
+    border-bottom: 1px solid #f4f4f4
+}
+
+.down-info-ul>li.down-con {
+    width: 300px;
+    padding-left: 38px;
+    border-right: 1px solid #f4f4f4
+}
+
+.down-info-ul>li.down-time {
+    width: 60px;
+    border-right: 1px solid #f4f4f4;
+    text-align: center
+}
+
+.down-info-ul>li.down-btn {
+    width: 60px;
+    text-align: center;
+    background: #1b9dfa
+}
+
+.down-info-ul>li.down-btn>a {
+    color: #fff
+}
+
+.down-info-ul>li.down-end {
+    color: #999;
+    background: #fff
+}
+
+.message-main,.search-con {
+    padding: 0 10px;
+    position: relative
+}
+
+.search-con .table-ul {
+    position: relative;
+    padding: 0 1px
+}
+
+.search-con .table-ul>.time {
+    width: 12%
+}
+
+.search-con .table-ul>.blue {
+    color: #1e85e1
+}
+
+.search-con .table-ul>.con-info {
+    width: 53.8%
+}
+
+.search-con .table-ul>.search-type {
+    width: 18%
+}
+
+.search-con .table-ul>.operation {
+    width: 15%
+}
+
+.search-con .table-ul>.del-Btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -367px -231px;
+    display: none;
+    cursor: pointer
+}
+
+.message-main>.table-ul>.del-Btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -367px -231px;
+    display: none;
+    cursor: pointer
+}
+
+.message-main>.table-border>.del-Btn,.search-con .table-border>.del-Btn {
+    display: block
+}
+
+.search-con .table-border>li {
+    line-height: 38px
+}
+
+.message-main>.table-ul>.message-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 75px;
+    height: 75px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat 0 -516px
+}
+
+.table-ul>.message-icon a {
+    height: 100%;
+    display: block
+}
+
+.message-main>.isRead>.message-icon {
+    background-position: 0 -440px
+}
+
+.message-main>.table-ul {
+    position: relative;
+    padding: 1px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 12px 1px 12px
+}
+
+.message-main>.table-ul:hover>.message-icon {
+    left: 9px;
+    top: 9px
+}
+
+.message-info a {
+    color: #666
+}
+
+.message-info a:hover {
+    text-decoration: none
+}
+
+.message-info>a p {
+    line-height: 36px;
+    margin-left: 105px
+}
+
+.message-info>a p.message-tit {
+    padding-right: 130px
+}
+
+.message-main>.table-border {
+    padding: 0
+}
+
+.message-main>.table-border>.message-icon {
+    height: 75px
+}
+
+.search-con .table-ul {
+    padding: 0 1px
+}
+
+.search-con .table-border {
+    border: 1px solid #000;
+    padding: 0
+}
+
+.search-con .table-border>li {
+    line-height: 38px
+}
+
+.message-main>.table-border {
+    border: 1px solid #000;
+    padding: 11px 0 12px
+}
+
+.table-ul>.message-info {
+    color: #666;
+    width: 100%
+}
+
+.message-tit>span {
+    vertical-align: middle
+}
+
+.table-ul>.message-info>a>em {
+    color: #666;
+    position: absolute;
+    top: 11px;
+    right: 14px
+}
+
+.message-tit .email-icon {
+    padding-left: 25px;
+    display: inline-block;
+    *display: inline;
+    margin-right: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+    color: #000;
+    font-family: "微软雅黑";
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    max-width: 80%
+}
+
+.message-tit .email-icon>i {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -100px 0
+}
+
+.isRead .email-icon>i {
+    background-position: -120px 0
+}
+
+.message-tit .file>i {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -140px 0
+}
+
+.file .num {
+    font-weight: 700;
+    color: #1d86e1
+}
+
+.message-tit .file {
+    padding-left: 25px;
+    display: inline-block;
+    *display: inline;
+    position: relative;
+    color: #333
+}
+
+.isRead .file .num,.isRead .message-tit .file,.isRead>.message-info>a {
+    color: #888
+}
+
+.isRead>.message-info .email-icon,.isRead>.message-info>a>em {
+    color: #888
+}
+
+#service-con {
+    background: #f3f3f3;
+    padding-top: 30px
+}
+
+#service-con>.content-nav {
+    margin-top: -30px
+}
+
+#service-con .subscription-con-nav>.tit {
+    margin-top: 30px
+}
+
+.blue-tel {
+    color: #1d86e1;
+    font-size: 18px;
+    font-family: "Microsoft Yahei";
+    margin-top: 10px
+}
+
+.blue-tel>span {
+    font-family: 'Times New Roman';
+    font-weight: 700
+}
+
+.height80 {
+    height: 80px
+}
+
+.service-con {
+    margin: 0 auto;
+    background: #fff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc
+}
+
+.service-con>.service-right {
+    width: 33%;
+    height: 620px;
+    border-left: 1px solid #ccc;
+    overflow: hidden
+}
+
+.service-con>.service-left {
+    margin-right: 33%
+}
+
+.hover-tit {
+    margin-right: -1px
+}
+
+.hover-tit>li {
+    text-align: center;
+    float: left;
+    width: 33.2999%;
+    *width: 33.15%;
+    font: 14px/38px '宋体';
+    font-weight: 700;
+    background: #eee;
+    border-bottom: 1px solid #ccc;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.service-con .hover-tit>.cur {
+    background: #fff;
+    margin-bottom: -1px;
+    border-bottom: none
+}
+
+.service-ask {
+    padding-top: 30px
+}
+
+.service-ask>a {
+    display: block;
+    margin: 0 10%;
+    border-bottom: 1px solid #ccc;
+    line-height: 38px
+}
+
+.Faq-btn,.ask-btn {
+    border-right: 1px solid #ccc
+}
+
+.service-left>p.tit {
+    padding: 10px 0 10px 80px;
+    line-height: 25px;
+    background: url(../../../images/tooxiu/userCenter/service-head001.png?v=c70bd82771) no-repeat;
+    color: #fff
+}
+
+.service-left>.top {
+    text-align: center;
+    padding: 10px 0 5px
+}
+
+.chat-content {
+    width: 99%;
+    height: 360px;
+    overflow: auto
+}
+
+.chat-tools {
+    height: 151px;
+    position: relative
+}
+
+.chat-content>.user-info {
+    padding: 5px 20px 24px
+}
+
+.chat-content>.user-info>li {
+    float: right;
+    width: 50%;
+    text-align: right;
+    position: relative
+}
+
+.user-info>li .head-icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -6px;
+    right: 10px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -170px -291px
+}
+
+.user-info .time {
+    padding-right: 78px;
+    color: #888
+}
+
+.user-info .user-con {
+    padding-right: 65px;
+    min-height: 48px;
+    line-height: 16px
+}
+
+.user-info .user-con>p {
+    padding: 11px 28px;
+    border: 1px solid #ccc;
+    background: #fff;
+    display: inline-block;
+    *display: inline;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    margin-right: 15px;
+    text-align: left;
+    *float: right;
+    position: relative
+}
+
+.user-info .user-con>p:after {
+    content: '\20';
+    position: absolute;
+    top: 0;
+    right: -14px;
+    width: 20px;
+    height: 20px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -200px 0
+}
+
+.chat-content>.AI-info {
+    padding: 5px 20px 24px
+}
+
+.AI-info .AI-time {
+    padding-left: 80px;
+    color: #888
+}
+
+.AI-info .AI-con {
+    padding-left: 65px;
+    min-height: 48px;
+    line-height: 16px;
+    position: relative
+}
+
+.AI-info .AI-con .head-icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -6px;
+    left: 10px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -220px -291px
+}
+
+.chat-content>.AI-info>li {
+    float: left;
+    width: 50%;
+    line-height: 16px
+}
+
+.AI-con-info {
+    padding: 11px 28px;
+    border: 1px solid #ccc;
+    background: #fff;
+    display: inline-block;
+    *display: inline;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    margin-left: 15px;
+    line-height: 24px;
+    *float: left;
+    position: relative
+}
+
+.AI-con-info>a {
+    display: block
+}
+
+.AI-con-info:after {
+    content: '\20';
+    position: absolute;
+    top: 14px;
+    left: -13px;
+    width: 20px;
+    height: 20px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -180px 0
+}
+
+.post-pos {
+    position: absolute;
+    right: 45px;
+    bottom: 23px
+}
+
+.post-pos>a {
+    display: inline-block;
+    *display: inline;
+    margin: 0 4px;
+    padding: 6px 15px;
+    background: #1b9ef9;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px
+}
+
+.post-pos>a:hover {
+    text-decoration: none
+}
+
+.AI-con-info>h6 {
+    color: #888
+}
+
+.pos-onTrial {
+    position: relative
+}
+
+.pos-onTrial>.top {
+    position: absolute;
+    width: 100%;
+    padding: 7px 0 0 0;
+    text-align: center
+}
+
+body .n-input>.obtain-btn.fn-hide {
+    display: none
+}
+
+.apply-num .countdown-btn {
+    width: auto;
+    font-size: 12px;
+    top: 2px;
+    line-height: 30px;
+    padding: 0 5px
+}
+
+.onTrial-from {
+    padding: 40px 10% 0;
+    position: relative
+}
+
+.onTrial-from>.right-two {
+    width: 40%;
+    top: 40px;
+    position: absolute;
+    left: 50%
+}
+
+.onTrial-from>.left-one {
+    width: 50%;
+    border-right: 1px solid #ddd;
+    position: relative
+}
+
+.left-one>ul>li,.right-two>ul>li {
+    line-height: 35px;
+    padding: 12px 0;
+    font-size: 14px
+}
+
+.left-one>ul>li>div,.right-two>ul>li>div {
+    display: inline-block;
+    *display: inline;
+    *zoom:1}
+
+.left-one>ul>li>.name {
+    text-align: right;
+    width: 30%;
+    padding-right: 10px
+}
+
+.right-two>ul>li>.name {
+    text-align: right;
+    width: 30%;
+    padding-right: 10px;
+    width: 32%
+}
+
+.left-one>ul>li>.n-input,.right-two>ul>li>.n-input {
+    width: 54%
+}
+
+.n-input>input {
+    padding: 5px;
+    border: 1px solid #bbb;
+    height: 21px
+}
+
+.n-input>.input {
+    width: 94%
+}
+
+.n-input>.input-code {
+    width: 64%
+}
+
+.n-input>.obtain-btn {
+    display: inline-block;
+    *display: inline;
+    line-height: 30px;
+    padding: 0 7%;
+    position: absolute;
+    bottom: 2px;
+    right: 2%;
+    margin-top: 2px;
+    background: #1b9dfa;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px
+}
+
+.n-input>.obtain-btn:hover {
+    background: #1d86e1
+}
+
+@media screen and (max-width: 1200px) {
+    .onTrial-from {
+        padding:8px 0 0 0
+    }
+
+    .sub-right .account-all-info .n-input {
+        width: 100%
+    }
+
+    .onTrial-from>.right-two {
+        top: 8px;
+        width: 50%
+    }
+}
+
+.input-c .get_code:hover {
+    background: #1d86e1
+}
+
+.radius3 {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px
+}
+
+.n-input>.submit-btn {
+    width: 98%;
+    background: #333;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer
+}
+
+.n-input>.submit-btn:hover {
+    background: #000
+}
+
+.left-one .apply-tit {
+    position: relative;
+    margin: 0 80px 28px 22.5111%;
+    padding: 0;
+    background: url(../../../images/tooxiu/userCenter/onTrial-titbg_03.png?v=fe1e6cae4e) repeat-y 0 0
+}
+
+.onTrial-from>.left-one ul>li .name {
+    width: 20%
+}
+
+.left-one>ul,.right-two>ul {
+    padding-top: 15px
+}
+
+.right-two .apply-tit {
+    background: url(../../../images/tooxiu/userCenter/onTrial-titbg_03.png?v=fe1e6cae4e) repeat-y 0 0;
+    position: relative;
+    margin: 0 0 28px 33.59%;
+    padding: 0;
+    white-space: nowrap;
+    font-size: 12px
+}
+
+.apply-tit>.tit {
+    font: 18px/24px "Microsoft Yahei";
+    padding-left: 15px
+}
+
+.apply-tit>.num {
+    font: 60px/60px 'Times New Roman';
+    position: absolute;
+    font-style: italic;
+    width: 60px;
+    text-align: center;
+    left: -70px;
+    top: -20px
+}
+
+.onTrial-history {
+    margin-bottom: 80px
+}
+
+.onTrial-history>p {
+    font: 18px/60px "Microsoft Yahei";
+    border-top: 1px solid #000
+}
+
+.onTrial-info-h>li {
+    position: relative;
+    float: left;
+    padding: 0 15px 0;
+    margin: 0 .7% 0;
+    width: 12.5%;
+    min-width: 150px;
+    border: 1px solid #aaa
+}
+
+.onTrial-info-h>li.loaderBg,.onTrial-info-h>li.show-info {
+    min-height: 100px;
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+
+.onTrial-info-h>li.show-info p {
+    padding: 30px 0
+}
+
+.onTrial-info-h>li>.num {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 15px;
+    color: #fff;
+    font: 14px/20px Tahoma;
+    text-indent: 6px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -331px -230px
+}
+
+.onTrial-info-h>li>.tit {
+    line-height: 29px;
+    text-align: center;
+    border-bottom: 1px solid #aaa
+}
+
+.onTrial-info-h .code {
+    color: #000;
+    display: block;
+    padding: 0;
+    margin: 0
+}
+
+.subscription-con-nav>.pos-onTrial {
+    margin-top: 35px
+}
+
+.onTrial-info-h>li>.info {
+    padding: 10px 0;
+    color: #666
+}
+
+.onTrial-info-h .bold {
+    font-weight: 700
+}
+
+.left-one>.applyEnd {
+    top: -24px;
+    left: 0;
+    position: absolute;
+    width: 90%;
+    height: 118%;
+    background-color: #aaa\9;
+    *background-color: #aaa;
+    background-color: rgba(204,204,204,.62);
+    filter: alpha(opacity=50)
+}
+
+.right-two>.applyEnd {
+    top: -24px;
+    left: 0;
+    position: absolute;
+    width: 90%;
+    height: 118%;
+    background-color: #aaa\9;
+    *background-color: #aaa;
+    background-color: rgba(204,204,204,.62);
+    filter: alpha(opacity=50);
+    left: 10%
+}
+
+.left-one>.applyEnd>span,.right-two>.applyEnd>span {
+    position: absolute;
+    top: 10px;
+    width: 130px;
+    right: 7%;
+    height: 130px;
+    background: url(../../../images/tooxiu/userCenter/apply_y_126.png?v=f720e53b0c) no-repeat 0 0
+}
+
+.fl-btn-left .switchShow {
+    width: 40%;
+    text-align: right
+}
+
+.account-right {
+    width: 42.307%;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    top: 0;
+    border-left: 1px solid #000;
+    max-height: 100%;
+    overflow: auto
+}
+
+.account-left {
+    width: 53.6%
+}
+
+.account-left>.Account-ul {
+    padding: 0 5px 0 5.714%
+}
+
+.account-left>.Account-ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 18px 20px
+}
+
+#accountInfo-con>.content,#subAccount-con>.content {
+    position: relative
+}
+
+.info-Show>.info {
+    position: static;
+    color: #000;
+    width: auto;
+    text-align: left;
+    height: auto;
+    background: 0 0;
+    padding-left: 120px;
+    margin: 10px 0;
+    min-height: 100px;
+    line-height: 30px
+}
+
+.info-Show>.info .blue {
+    display: inline-block;
+    *display: inline;
+    padding-left: 10px
+}
+
+.info-Show>.info .modPassword:hover {
+    text-decoration: underline
+}
+
+.info-Show2 .underline-b a.blue:hover {
+    text-decoration: underline
+}
+
+.info-Show .thumb {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    text-align: center
+}
+
+.info-Show .thumb span {
+    display: inline-block
+}
+
+.info-Show .thumb img {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px
+}
+
+.infoShow .left img.fl {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px
+}
+
+.thumb-layer {
+    height: 380px
+}
+
+.thumb-layer .top {
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.thumb-view {
+    position: relative;
+    display: block;
+    width: 344px;
+    height: 344px;
+    line-height: 344px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-family: "Microsoft Yahei";
+    overflow: hidden
+}
+
+.thumb-view input {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 283px;
+    outline: 0;
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+.thumb-pic {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    overflow: hidden
+}
+
+.thumb-200 {
+    width: 200px;
+    height: 200px
+}
+
+.thumb-80 {
+    width: 80px;
+    height: 80px
+}
+
+.thumb-40 {
+    width: 40px;
+    height: 40px
+}
+
+.info-Show>.info>.name {
+    font: bold 14px "宋体"
+}
+
+.other-account {
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat;
+    vertical-align: middle
+}
+
+.info-Show>.info .icon-qq {
+    background-position: 0 -40px
+}
+
+.info-Show>.info .icon-sina {
+    background-position: -20px -40px
+}
+
+.info-Show>.info .icon-weixin {
+    background-position: -40px -40px
+}
+
+.other-account:hover {
+    overflow: visible
+}
+
+.other-account:hover p {
+    display: block;
+    white-space: nowrap
+}
+
+.other-account:hover span {
+    display: block
+}
+
+.other-account>span {
+    display: none;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 100%;
+    height: 22px;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 5px solid #fff
+}
+
+.other-account>p {
+    position: absolute;
+    top: 22px;
+    left: -1px;
+    line-height: 22px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    display: none;
+    white-space: nowrap
+}
+
+.data-canvs {
+    position: absolute;
+    width: 110px;
+    padding: 0 0 0 25px;
+    top: 25px;
+    right: 0;
+    background: #fff
+}
+
+.data-canvs>a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 5px 0;
+    background: #888
+}
+
+.data-canvs .canvsDiv {
+    height: 100px;
+    position: relative;
+    text-align: center
+}
+
+.data-canvs .canvsDiv>img {
+    position: relative;
+    top: 7px
+}
+
+.data-canvs .canvsDiv canvas {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto
+}
+
+.data-canvs>a:hover {
+    background: #666
+}
+
+.info-Show>.info-a {
+    line-height: 35px
+}
+
+.account-left>.Account-ul li.info-Show {
+    padding: 10px 20px;
+    position: relative
+}
+
+.account-left>.Account-ul li.info-Show2 {
+    padding-left: 0;
+    -webkit-text-size-adjust: none
+}
+
+.info-Show2>.info-a {
+    line-height: 30px
+}
+
+.info-Show2>.info-a>.name {
+    font-weight: 700
+}
+
+.info-Show2 .radius3 {
+    display: inline-block;
+    *display: inline;
+    color: #fff;
+    line-height: 20px;
+    padding: 0 5px 0 20px;
+    margin: 0 15px 0 8px
+}
+
+.info-Show2>.info-a .isValidat-no {
+    background: #fd5b23;
+    position: relative
+}
+
+.account-left>.Account-ul li.no-bottom-b {
+    border-bottom: none
+}
+
+.isValidat-no>i,.isValidat-yes>i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px
+}
+
+.info-Show2>.info-a .isValidat-no>i {
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -140px -20px
+}
+
+.info-Show2>.info-a .isValidat-yes {
+    background: #6ebd4f;
+    position: relative
+}
+
+.info-Show2>.info-a .isValidat-yes>i {
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -120px -20px
+}
+
+.contract-pic {
+    padding: 0 7.272% 0 9.636%
+}
+
+.contract-pic>li {
+    background: #f0f0f0;
+    border-bottom: 1px solid #fff
+}
+
+.contract-pic>li.cur .contract-tit {
+    background: #000
+}
+
+.contract-pic>li .contract-tit>i {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -160px -20px
+}
+
+.contract-pic>li.cur .contract-tit>i {
+    position: absolute;
+    background-position: -180px -20px
+}
+
+.contract-pic>li .contract-con {
+    display: none
+}
+
+.contract-pic>li.cur .contract-con {
+    display: block
+}
+
+.contract-tit {
+    display: block;
+    line-height: 30px;
+    padding: 0 30px 0 20px;
+    background: #999;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.contract-tit:hover {
+    text-decoration: none
+}
+
+.contract-con .info {
+    position: static;
+    color: #000;
+    width: auto;
+    text-align: left;
+    height: auto;
+    background: 0 0;
+    padding: 20px 0 20px 40px;
+    line-height: 24px
+}
+
+.contract-con .info>.bold {
+    font-weight: 700
+}
+
+.contract-con>.pic {
+    position: relative;
+    margin: 25px 30px;
+    height: 210px;
+    background-color: #fff
+}
+
+.contract-con>.pic>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer
+}
+
+.contract-con>.pic>span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: url(../../../images/tooxiu/public/transparent-bg.png?v=e1177b9634) repeat;
+    cursor: pointer
+}
+
+.contract-con>.pic>span>i {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -200px -20px
+}
+
+#subAccount-con .account-right {
+    width: 31%;
+    padding-left: 25px;
+    position: static;
+    float: right
+}
+
+#subAccount-con .account-left {
+    margin-right: 30px;
+    padding-right: 33%;
+    color: #000;
+    min-width: 570px;
+    width: 64.76%
+}
+
+.account-table {
+    width: 100%;
+    text-align: center;
+    position: relative
+}
+
+.account-table .ag-right {
+    text-align: right;
+    width: 60px;
+    padding: 5px 20px
+}
+
+.account-table thead {
+    background: #f0f0f0
+}
+
+.account-table th {
+    text-align: center;
+    font: bold 12px/40px '宋体';
+    border: 1px solid #ccc
+}
+
+.account-table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    line-height: 30px
+}
+
+.account-table .f12 {
+    text-align: left;
+    font-size: 12px;
+    line-height: 16px
+}
+
+.account-table .f12 .c999 {
+    color: #999
+}
+
+.account-table .head-i {
+    width: 32px;
+    height: 32px;
+    overflow: hidden
+}
+
+.account-table .head-i>img {
+    display: block;
+    width: 100%
+}
+
+.account-table .user-td {
+    text-align: left;
+    padding-left: 20px
+}
+
+.sub-right {
+    position: static;
+    float: right;
+    padding-left: 1.625%;
+    width: 33.12%;
+    overflow: hidden
+}
+
+.sub-right .top {
+    text-align: center;
+    padding: 10px 0 0
+}
+
+.sub-right .tit {
+    padding: 10px 12px;
+    background: #f0f0f0
+}
+
+.sub-right .tit>a {
+    float: right;
+    color: #333;
+    text-decoration: underline
+}
+
+.sub-right .tit>span {
+    font: 18px/18px 'Microsoft YaHei'
+}
+
+.sub-right .op-info {
+    position: relative
+}
+
+.sub-right .op-info #wx-code {
+    left: 22.26%
+}
+
+.sub-right .op-info .code-ii {
+    left: 36.5%
+}
+
+.sub-right .account-all-info>li {
+    margin: 20px 0 40px;
+    position: relative
+}
+
+.sub-right .account-all-info>li.first {
+    margin: 27px 0 20px
+}
+
+.sub-right .account-all-info .in-block {
+    text-align: left
+}
+
+.sub-right .account-all-info .in-block .name {
+    text-align: left
+}
+
+.sub-right .account-all-info .c999 {
+    color: #999
+}
+
+.sub-right .account-all-info .head-i img {
+    width: 32px;
+    height: 32px
+}
+
+.sub-right.account-right .info-submit {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0
+}
+
+.sub-right .padd-submit {
+    position: relative
+}
+
+.sub-right .go-back {
+    position: absolute;
+    margin-left: 32px;
+    top: 16px;
+    text-decoration: underline
+}
+
+.sub-right .perfect-info {
+    display: none
+}
+
+.sub-right .add-child-account .top {
+    text-align: left;
+    padding-bottom: 30px
+}
+
+.sub-right .add-child-account .top .warning {
+    margin-left: 15.09%
+}
+
+.sub-right .code-img {
+    margin-left: 22.26%
+}
+
+.sub-right .text-info {
+    margin-top: 30px;
+    border-top: 1px dashed #ddd;
+    font-size: 12px;
+    line-height: 12px;
+    padding-bottom: 15px
+}
+
+.sub-right .text-info .tit-box {
+    padding-top: 12px
+}
+
+.sub-right .text-info .tit-box a {
+    color: #1289f1
+}
+
+.sub-right .text-info p {
+    padding-top: 12px
+}
+
+.sub-left {
+    width: 63.6%
+}
+
+.account-design {
+    margin: 0 auto;
+    min-height: 210px
+}
+
+.account-all-info {
+    padding: 0 11.89%
+}
+
+.padd-submit {
+    padding: 0 0 0 11.89%
+}
+
+.account-all-info>li {
+    margin: 10px 0 30px;
+    position: relative
+}
+
+.account-all-info>li>div {
+    display: inline-block;
+    *display: inline
+}
+
+.account-all-info>li .tips {
+    position: absolute;
+    bottom: -20px;
+    line-height: 20px;
+    left: 0;
+    color: #aaa;
+    width: 73%;
+    white-space: nowrap
+}
+
+.account-all-info .name {
+    width: 24%;
+    padding-right: 4px;
+    text-align: right;
+    min-width: 60px
+}
+
+.account-all-info .n-input {
+    width: 73%;
+    position: relative
+}
+
+.account-all-info #type-box {
+    display: inline-block;
+    *display: inline;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat 0 -20px
+}
+
+.border-type-Li {
+    border-top: 1px dotted #aaa;
+    border-bottom: 1px dotted #aaa;
+    padding: 14px 0
+}
+
+.account-all-info .border-type {
+    padding: 18px 0;
+    line-height: 14px;
+    display: inline-block;
+    *display: inline
+}
+
+.account-all-info .border-type .t-name {
+    display: inline-block;
+    *display: inline;
+    width: 24%;
+    min-width: 60px;
+    padding-right: 4px;
+    text-align: right
+}
+
+.dig_icon {
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../../../images/tick.png) no-repeat 0 0
+}
+
+.dig-href {
+    width: 100%;
+    height: 33px;
+    color: #888;
+    line-height: 33px;
+    background: 0 0;
+    margin-top: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
+}
+
+.dialog-tip-copy {
+    background: #262626;
+    text-align: center
+}
+
+.dialog-tip-copy>div {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.dialog-account-design {
+    border: 4px solid #000
+}
+
+.dialog-account-design .layui-layer-btn {
+    display: none!important
+}
+
+.dialog-account-design .dig-link {
+    position: absolute;
+    top: 8px;
+    font-size: 16px;
+    color: #000
+}
+
+.dialog-account-design input {
+    width: 100%;
+    margin-top: 20px;
+    background: 0 0;
+    border: 1px solid #bbb;
+    height: 35px;
+    text-indent: 8px;
+    color: #888
+}
+
+.dialog-account-design button {
+    background: #333;
+    color: #fff;
+    width: 140px;
+    height: 30px;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 10px
+}
+
+.dialog-account-design .dig-other {
+    margin-top: 21px;
+    border-top: 1px solid #000;
+    font-size: 16px;
+    padding-top: 21px;
+    padding-bottom: 12px
+}
+
+.dialog-account-design .layui-layer-content {
+    height: 340px!important
+}
+
+.account-right .info-submit {
+    background: #333;
+    display: inline-block;
+    *display: inline;
+    line-height: 14px;
+    text-align: center;
+    margin: 20px 0 10px 29%;
+    padding: 10px 40px;
+    color: #fff;
+    letter-spacing: 6px
+}
+
+.account-right .info-submit:hover {
+    background: #1b9dfa;
+    text-decoration: none
+}
+
+td.operate {
+    width: 74px;
+    text-align: left;
+    padding: 5px 20px
+}
+
+td.operate>span {
+    display: inline-block;
+    *display: inline;
+    margin: 0 5px;
+    color: #0160d5;
+    cursor: pointer
+}
+
+.account-operate {
+    text-align: center!important
+}
+
+.orderCen-ul {
+    padding: 6px 0;
+    background: #f5f5f5;
+    margin-bottom: 10px
+}
+
+.orderCen-ul>li {
+    float: left;
+    line-height: 30px;
+    padding-bottom: 1px;
+    height: 32px
+}
+
+.orderCen-ul>li>.name {
+    display: inline-block;
+    *display: inline;
+    padding-left: 20px;
+    float: left
+}
+
+.orderCen-ul>li>input {
+    padding: 5px;
+    border: 1px solid #bbb;
+    height: 20px;
+    line-height: 20px
+}
+
+.orderCen-ul .radius3 {
+    background: #333;
+    display: inline-block;
+    *display: inline;
+    padding: 5px 35px;
+    margin-left: 12px;
+    cursor: pointer;
+    line-height: 16px;
+    color: #fff
+}
+
+.orderCen-ul .radius3:hover {
+    background: #1d9efa
+}
+
+.orderCen-ul .limits-li {
+    position: relative
+}
+
+.orderCen-ul .limits-li>span {
+    float: left
+}
+
+.orderCen-ul .limits-li .icon {
+    position: absolute;
+    top: 6px;
+    right: 3px;
+    width: 20px;
+    height: 20px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -240px 0
+}
+
+.orderCen-ul .limits-li>ul {
+    display: inline-block
+}
+
+#subAccount-con .orderCen-ul {
+    margin: 15px 0
+}
+
+.orderCen-ul .input {
+    width: 158px
+}
+
+.orderCen-ul .time-input {
+    width: 128px
+}
+
+.orderCen-ul .space-s {
+    display: inline-block;
+    *display: inline;
+    padding: 0 10px;
+    letter-spacing: -1px;
+    color: #bbb
+}
+
+.orderCen-ul .state-input {
+    border: 1px solid #bbb;
+    background: #fff;
+    cursor: pointer;
+    width: 75px;
+    padding: 5px 25px 5px 12px
+}
+
+.limits-li #selectState {
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    zoom:1;height: 30px;
+    line-height: 30px;
+    top: 0;
+    right: 0;
+    width: 114px;
+    text-decoration: none;
+    z-index: 1
+}
+
+.limits-li #selectState>div {
+    position: relative;
+    top: 0;
+    height: 18px;
+    line-height: 18px
+}
+
+.limits-li #selectState input {
+    height: 18px
+}
+
+.orderCen-ul .state-sel {
+    width: 112px;
+    line-height: 29px;
+    background: #fff;
+    height: 120px;
+    overflow: hidden;
+    border: 1px solid #bbb;
+    border-top: none;
+    cursor: pointer;
+    top: 29px;
+    left: 0;
+    position: absolute
+}
+
+.msgAll {
+    cursor: pointer
+}
+
+#orderCenter-con .orderCen-ul {
+    margin-top: 5px
+}
+
+.orderCen-ul .state-sel>li {
+    border-top: 1px solid #eee;
+    padding-left: 12px;
+    color: #666
+}
+
+.orderCen-ul .state-sel>li:hover {
+    background: #f5f5f5;
+    color: #000
+}
+
+.limits-li #selectState:hover>.icon {
+    -moz-transition-duration: .5s;
+    -webkit-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    transition-duration: .5s;
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.order-con-info {
+    padding-bottom: 30px
+}
+
+.order-con-info>li {
+    float: left;
+    width: 33.3333%;
+    padding: 10px 0
+}
+
+.order-info {
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid #ffd7df;
+    position: relative;
+    cursor: pointer
+}
+
+.order-info .limit-time {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 0
+}
+
+.order-info .red {
+    color: #ff3a5f;
+    font: bold 14px Tahoma
+}
+
+.order-info>.fl-type {
+    float: right;
+    font: bold 14px/39px '宋体';
+    text-align: center;
+    width: 80px;
+    color: #fff;
+    position: relative
+}
+
+.order-info .wait-pay {
+    background: #ff567a
+}
+
+.order-info .traded {
+    background: #52b181
+}
+
+.order-info .traded>i,.order-info .wait-pay>i {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: 40px;
+    height: 100%;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -290px -272px
+}
+
+.closeGray>.close-s>i {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: 40px;
+    height: 100%;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -290px -272px
+}
+
+.order-info .traded>i {
+    background-position: -330px -272px
+}
+
+.closeGray>.close-s>i {
+    background-position: -371px -272px
+}
+
+.order-info>.order-No {
+    display: block;
+    line-height: 39px;
+    background: #fef0f3;
+    padding-left: 15px;
+    font: bold 14px/39px '宋体';
+    color: #000;
+    border-bottom: 1px solid #ffd7df
+}
+
+.order-info>p {
+    font-size: 14px;
+    padding: 0 20px;
+    line-height: 35px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis
+}
+
+.order-info>p.paddTop10 {
+    padding-top: 10px
+}
+
+.order-info>p.paddBottom10 {
+    padding-bottom: 10px
+}
+
+.finish {
+    border: 1px solid #aaddc3
+}
+
+.finish>.order-No {
+    background: #f6fefa;
+    border-bottom: 1px solid #aaddc3
+}
+
+.finish>.order-No a {
+    cursor: default
+}
+
+.closeGray {
+    border: 1px solid #d0d0d0
+}
+
+.closeGray>.close-s {
+    background: #d0d0d0
+}
+
+.closeGray>.order-No {
+    background: #f1f1f1;
+    border-bottom: 1px solid #d0d0d0
+}
+
+.new-order {
+    background: #f8f8f8;
+    margin-bottom: 80px;
+    padding: 35px 0 0
+}
+
+.new-order-tip {
+    font: italic 22px/22px "宋体";
+    padding-left: 40px
+}
+
+.new-order-tip>.st30 {
+    font-size: 30px
+}
+
+.orderIng {
+    overflow: hidden;
+    padding: 25px 20px 20px
+}
+
+.order-submit {
+    margin: 0 2.6% 0;
+    padding-top: 25px;
+    padding-bottom: 18px;
+    border-top: 1px dotted #aaa
+}
+
+.order-submit>.radius3 {
+    float: right;
+    padding: 0 25px;
+    color: #fff;
+    background: #333;
+    line-height: 40px
+}
+
+.order-submit>p {
+    font-size: 18px;
+    line-height: 38px;
+    font-family: 'Microsoft YaHei'
+}
+
+.order-submit>p>#total {
+    color: #ff3a5f;
+    font-size: 22px;
+    font-family: "Times New Roman"
+}
+
+.order-submit>.radius3:hover {
+    text-decoration: none;
+    background: #000
+}
+
+#orderInfo-con .orderInfo-sub {
+    margin: 0 auto;
+    padding: 65px 0;
+    border-bottom: 1px solid #eee;
+    position: relative
+}
+
+.orderInfo-sub>.info-right {
+    float: right;
+    width: 25%;
+    padding-right: 16.5%;
+    margin-left: 4%;
+    padding-left: 4%
+}
+
+.info-right>.tit {
+    font-size: 18px;
+    font-family: 'Microsoft YaHei';
+    line-height: 18px;
+    margin-left: 10px;
+    padding-bottom: 18px;
+    border-bottom: 1px dotted #010101
+}
+
+.info-right>.con {
+    font-size: 14px;
+    font-family: '宋体';
+    line-height: 34px;
+    padding: 10px
+}
+
+.info-right>.con>p {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis
+}
+
+.info-right>.tol {
+    font-size: 16px;
+    font-family: 'Microsoft YaHei';
+    line-height: 40px;
+    padding-left: 13px;
+    background: #f7f7f7;
+    font-weight: 700
+}
+
+.info-right>.tol #total {
+    font-family: 'Times New Roman';
+    color: #ff3131
+}
+
+.orderInfo-sub>.info-left {
+    width: 42%;
+    margin-right: 50%;
+    padding-right: 8%
+}
+
+.info-left>li {
+    padding: 10px 0;
+    margin-left: 22%
+}
+
+.info-left>li>.name {
+    width: 25%;
+    padding-right: 10px;
+    text-align: right
+}
+
+.info-left>li>.n-input {
+    width: 70%;
+    vertical-align: middle
+}
+
+.in-Time .n-input i.time-icon {
+    position: absolute;
+    left: 35%;
+    height: 20px;
+    width: 20px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat 0 -60px;
+    top: 6px
+}
+
+.info-left>li>.n-input .input {
+    display: block;
+    width: 95%
+}
+
+.info-left>li>div {
+    display: inline-block;
+    *display: inline
+}
+
+.noSubscription .center-info-tip>p {
+    display: inline-block;
+    *display: inline;
+    text-align: left;
+    font-family: "宋体"
+}
+
+.center-info-tip .limit-p {
+    text-align: center;
+    padding-top: 20px
+}
+
+.notdata {
+    margin-top: 90px;
+    margin-bottom: 75px
+}
+
+.validate-self>.info-left {
+    float: left;
+    margin-right: 0
+}
+
+.in-Time>div {
+    vertical-align: middle;
+    position: relative
+}
+
+.validate-self>.info-right li {
+    padding: 10px 0;
+    position: relative
+}
+
+.validate-self>.info-right li>.name {
+    width: 70px;
+    position: absolute;
+    left: -70px;
+    text-align: right
+}
+
+.validate-self>.info-right li>div {
+    display: inline-block;
+    *display: inline;
+    width: 100%
+}
+
+.remarks-li .name {
+    vertical-align: top
+}
+
+.remarks .msgTarea {
+    vertical-align: top;
+    border: none;
+    resize: none;
+    outline: 0;
+    line-height: 24px;
+    width: auto
+}
+
+.validate-self .remarks {
+    text-align: left;
+    padding: 0 5px;
+    line-height: 24px;
+    color: #666;
+    height: 189px;
+    border: 1px solid #bbb;
+    width: 94%
+}
+
+.validate-self .remarks>div {
+    padding: 7px 8px 0
+}
+
+.remarks>div>p {
+    color: #666
+}
+
+.validate-self input {
+    font-size: 14px
+}
+
+.validate-self .remarks-li>.name {
+    padding-top: 7px
+}
+
+.validate-self .select-Time {
+    padding: 0;
+    color: #666
+}
+
+.selectSim {
+    outline: 0
+}
+
+.select-Time-btn>span {
+    padding: 0 10px;
+    line-height: 14px;
+    cursor: pointer
+}
+
+.select-Time .space {
+    display: inline-block;
+    *display: inline;
+    border-right: 1px solid #bbb
+}
+
+.select-Time .space.tomr {
+    padding-left: 0
+}
+
+.self-submit-btn {
+    display: block;
+    margin: 20px auto 70px;
+    text-align: center;
+    line-height: 40px;
+    width: 160px;
+    background: #333;
+    color: #fff;
+    text-decoration: none
+}
+
+.in-Time .input-time {
+    width: 40%
+}
+
+.submit-suss {
+    margin: 70px auto 50px
+}
+
+.submit-suss>p>span.tip {
+    color: #000
+}
+
+p>span.tip>.red {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Tahoma
+}
+
+.Pay-con {
+    width: 83%;
+    margin: 0 auto;
+    border: 1px solid #ccc
+}
+
+.submitOrder .Pay-con>.hover-tit {
+    background: #e3e3e3
+}
+
+.Pay-con>.hover-tit {
+    border-right: 1px solid #ccc
+}
+
+.Pay-con>.hover-tit>li {
+    width: 49.999%;
+    *width: 49.899%;
+    background: #e3e3e3;
+    line-height: 39px
+}
+
+.Pay-con>.hover-tit>li.cur {
+    background: #fff;
+    border-bottom: none
+}
+
+.Pay-con>.hover-tit>li.one {
+    border-right: 1px solid #ccc
+}
+
+.Pay-con>.hover-tit>li>span {
+    display: inline-block;
+    *display: inline;
+    overflow: hidden;
+    width: auto;
+    line-height: 20px;
+    padding: 0 50px
+}
+
+.Pay-con .hover-tit .icon {
+    background: 0 0;
+    position: relative;
+    font: normal 18px/24px "Microsoft YaHei"
+}
+
+.line-in-img>i {
+    position: absolute;
+    top: 4px;
+    left: 12px;
+    width: 30px;
+    height: 30px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat 0 -146px
+}
+
+.submitOrder .line-Pay-img>i {
+    width: 30px;
+    height: 30px
+}
+
+.line-Pay-img>i {
+    position: absolute;
+    top: -4px;
+    left: 11px;
+    width: 50px;
+    height: 40px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -30px -138px
+}
+
+.Pay-con .hover-tit .icon>em {
+    position: absolute;
+    top: -6px;
+    right: 0;
+    width: 50px;
+    height: 30px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -290px -308px
+}
+
+.On-line-Pay {
+    padding: 30px 7%
+}
+
+.On-line-Pay>p {
+    background: #fffaea;
+    line-height: 30px;
+    padding-left: 15px
+}
+
+.On-line-Pay>.self-submit-btn {
+    margin: 0 0 25px 10px
+}
+
+.sweep-img>i {
+    position: absolute;
+    top: 2px;
+    left: 15px;
+    width: 23px;
+    height: 22px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -96px -144px
+}
+
+.sweep-pay {
+    padding: 70px;
+    text-align: center
+}
+
+.sweep-pay .in-block {
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    margin: 0 20px
+}
+
+.sweep-pay .in-block>p {
+    color: #1c9f11;
+    font-size: 18px;
+    padding: 10px 0
+}
+
+.bank-sel {
+    margin: 20px 0
+}
+
+.bank-sel>li {
+    float: left;
+    width: 33.33%
+}
+
+.bank-sel label {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    height: 80px;
+    line-height: 80px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    padding: 1px;
+    background: url(../../../images/tooxiu/userCenter/bank-logo.png?v=dbfd0a459f) no-repeat
+}
+
+.bank-sel .la-Alipay {
+    background-position: 36px -403px
+}
+
+.bank-sel .la-Tenpay {
+    background-position: 36px -490px
+}
+
+.bank-sel .la-chinapnr {
+    background-position: 36px -570px
+}
+
+.bank-sel .la-weixin {
+    background-position: 0 -660px
+}
+
+.bank-sel li.cur label {
+    padding: 0;
+    border: 2px solid #1d86e1
+}
+
+.bank-sel label input {
+    vertical-align: middle;
+    margin-left: 10px
+}
+
+.line-Pay {
+    padding: 50px 5.5%;
+    height: 475px
+}
+
+.transferred {
+    text-align: center;
+    border-bottom: 1px solid #666
+}
+
+.transferred>li {
+    width: 14%;
+    float: none;
+    background: #fff;
+    border-bottom: none;
+    border-top: 1px solid #666;
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+    display: inline-block;
+    *display: inline;
+    font-weight: 400
+}
+
+.transferred>li.cur {
+    background: #666;
+    color: #fff;
+    font-weight: 700
+}
+
+.transferred>li.one-a,.transferred>li.two-a {
+    border-right: none
+}
+
+.Private-Pay .top,.pay-in-cash .top,.public-pay .top {
+    text-align: center;
+    margin: 20px 0
+}
+
+.public-pay .bank-info {
+    display: inline-block;
+    *display: inline;
+    padding-top: 80px;
+    margin: 7% 0 0 9%;
+    width: 38%;
+    font: 14px/30px "Microsoft YaHei";
+    position: relative
+}
+
+.public-pay .bank-info>i {
+    background: url(../../../images/tooxiu/userCenter/bank-logo.png?v=dbfd0a459f) no-repeat 0 -280px;
+    content: '\20';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 60px
+}
+
+.public-pay .b-left {
+    border-right: 1px solid #ddd
+}
+
+.public-pay .b-left>i {
+    background-position: 0 -340px
+}
+
+.Mobile-pay .b-left,.Private-Pay .b-left {
+    border-right: 1px solid #ddd
+}
+
+.public-pay .b-left.zsyh>i {
+    height: 40px;
+    background-position: 0 -154px
+}
+
+.Private-Pay .bank-info {
+    display: inline-block;
+    *display: inline;
+    margin-top: 30px;
+    width: 38%;
+    padding-top: 60px;
+    font: 14px/24px "Microsoft YaHei";
+    position: relative;
+    overflow: hidden;
+    margin: 7% 0 0 9%
+}
+
+.public-pay .bank-info {
+    margin-top: 32px
+}
+
+.p-ok {
+    position: relative;
+    text-align: left
+}
+
+.p-ok>i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -170px -390px
+}
+
+.Private-Pay .bank-info>i {
+    position: absolute;
+    top: 0;
+    left: 3%;
+    width: 220px;
+    height: 50px;
+    background: url(../../../images/tooxiu/userCenter/bank-logo.png?v=dbfd0a459f) no-repeat
+}
+
+.Private-Pay .ABC>i {
+    background-position: 0 0
+}
+
+.Private-Pay .ICBC>i {
+    background-position: 0 -50px
+}
+
+.Private-Pay .CBC>i {
+    background-position: 0 -100px
+}
+
+.Private-Pay .BOCOM>i {
+    background-position: 0 -200px
+}
+
+.Private-Pay .CMB>i {
+    background-position: 0 -150px
+}
+
+.pay-in-cash img {
+    display: block;
+    max-width: 75%;
+    margin: 25px auto 0;
+    height: 325px
+}
+
+.center-p .padd-p {
+    display: block;
+    padding: 0 0 0 9%
+}
+
+.Mobile-pay .mobile-info {
+    width: 32%;
+    float: left;
+    padding: 0 67px
+}
+
+.Mobile-pay .mobile-info img {
+    width: 100%
+}
+
+#login .top {
+    text-align: center;
+    padding: 18px 0
+}
+
+.content-nav .c-ion,.drag-movediv .c-ion {
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat;
+    position: relative
+}
+
+.Mydiction-icon-nav .c-ion,.drag-movediv .Mydiction-icon-nav .c-ion {
+    background-position: 0 -180px
+}
+
+.drag-movediv .subscribe-icon-nav .c-ion,.subscribe-icon-nav .c-ion {
+    background-position: -41px -180px
+}
+
+.drag-movediv .favorites-icon-nav .c-ion,.favorites-icon-nav .c-ion {
+    background-position: -82px -180px
+}
+
+.drag-movediv .history-icon-nav .c-ion,.history-icon-nav .c-ion {
+    background-position: -123px -180px
+}
+
+.drag-movediv .s-history-icon-nav .c-ion,.s-history-icon-nav .c-ion {
+    background-position: -164px -180px
+}
+
+.down-icon-nav .c-ion,.drag-movediv .down-icon-nav .c-ion {
+    background-position: -205px -180px
+}
+
+.drag-movediv .order-icon-nav .c-ion,.order-icon-nav .c-ion {
+    background-position: -246px -180px
+}
+
+.drag-movediv .message-icon-nav .c-ion,.message-icon-nav .c-ion {
+    background-position: -287px -180px
+}
+
+.accounts-icon-nav .c-ion,.drag-movediv .accounts-icon-nav .c-ion {
+    background-position: -329px -180px
+}
+
+.drag-movediv .service-icon-nav .c-ion,.service-icon-nav .c-ion {
+    background-position: -369px -180px
+}
+
+.drag-movediv .onTrial-icon-nav .c-ion,.onTrial-icon-nav .c-ion {
+    background-position: -410px -179px
+}
+
+.design-icon-nav .c-ion,.drag-movediv .design-icon-nav .c-ion {
+    background-position: -494px -180px
+}
+
+.notpadd a.btn-input-big {
+    position: absolute;
+    line-height: 40px
+}
+
+.subscribe-icon-nav .lock {
+    vertical-align: middle;
+    display: inline-block;
+    *display: inline;
+    width: 20px;
+    height: 20px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -40px 0
+}
+
+.nav_bgcolor .add-MyDiction {
+    display: inline-block;
+    *display: inline
+}
+
+.add-MyDiction {
+    position: absolute;
+    width: 100%;
+    height: 26px;
+    bottom: -26px;
+    left: 0;
+    display: none;
+    background: #1b9dfa
+}
+
+.add-MyDiction>em {
+    display: block;
+    margin: 0 auto;
+    height: 26px;
+    width: 80px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) #1b9dfa no-repeat -21px -383px
+}
+
+.conter-item .dele-MyDiction>em {
+    background-position: -21px -412px
+}
+
+.compress-down,.img-down {
+    position: relative
+}
+
+.compress-down:after {
+    content: "\20";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -20px -20px
+}
+
+.img-down:after {
+    content: "\20";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -20px -20px;
+    background-position: -40px -20px
+}
+
+@media screen and (max-width: 1200px) {
+    .orderIng>li {
+        width:25%;
+        padding-bottom: 20px
+    }
+}
+
+#subscription-slider .imgFrame>p {
+    margin: 0 3%
+}
+
+.from-ul-s .get_codeImg {
+    right: 4px
+}
+
+.from-ul-s.pt38 {
+    padding-top: 38px
+}
+
+.from-ul-s.bottom-li {
+    border-top: 1px solid #ddd;
+    margin: 35px -20px 0;
+    padding: 5px 20px 0
+}
+
+.get_codeImg {
+    width: 33%;
+    height: 28px;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.apply-num .n-input {
+    position: relative
+}
+
+.orderInfo-sub>.info-left.no-border {
+    border: none
+}
+
+.onepx {
+    position: absolute;
+    left: 50%;
+    height: 195px;
+    border-right: 1px solid #dfdfdf;
+    top: 73px
+}
+
+#orderInfo-con .info-left .name,#orderInfo-con .info-right .name {
+    font-size: 14px;
+    vertical-align: middle
+}
+
+.orderInfos-warning>.top {
+    position: absolute;
+    bottom: 10px;
+    right: 0
+}
+
+.countdown-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 4px;
+    text-align: center;
+    width: 33%;
+    position: absolute;
+    height: 30px;
+    display: inline-block;
+    padding: 0 5%;
+    background: #1b9dfa;
+    color: #fff
+}
+
+.remarks input {
+    border: none;
+    outline: 0;
+    float: left;
+    padding-left: 3px
+}
+
+.remarks>div>p>span {
+    float: left
+}
+
+.hoverWarning {
+    position: relative;
+    z-index: 7;
+    max-height: 25px
+}
+
+#click-Pay-con>li {
+    cursor: pointer;
+    margin-bottom: -1px
+}
+
+#content-nav-btn.topZindex {
+    z-index: 55
+}
+
+#Subscription-wrap .del-btn {
+    top: 0;
+    right: 0
+}
+
+.pic-cons {
+    cursor: pointer
+}
+
+body .cur .del-btn {
+    display: block
+}
+
+.contract-pic>li.loaderBg,.loaderBg {
+    background: url(../../../images/tooxiu/home/loading.gif?v=4b9a8051b0) #fff no-repeat center center
+}
+
+.left-search {
+    min-height: 100px
+}
+
+.no_Pbottom {
+    padding-bottom: 0
+}
+
+.loader_Ing,.orderLoader {
+    min-height: 222px
+}
+
+#vip_list .loaderIng-img {
+    width: 100%;
+    max-height: 150px;
+    background: url(../../../images/tooxiu/home/loading.gif?v=4b9a8051b0) #fff no-repeat center center
+}
+
+.linkageSelect {
+    min-height: 66px;
+    max-height: 110px;
+    position: absolute;
+    top: 31px;
+    width: 93%;
+    z-index: 999999;
+    background-color: #fff;
+    padding: 5px 4px;
+    border: 1px solid #ccc
+}
+
+.linkageSelect>div {
+    background: #fff;
+    overflow: hidden
+}
+
+.linkageSelect>div ul>li {
+    line-height: 22px;
+    padding-left: 5px;
+    cursor: pointer
+}
+
+.linkageSelect>div ul>li.cur,.linkageSelect>div ul>li:hover {
+    background: #e9e9e9
+}
+
+body .input-c .get_code.disabled,body .n-input>.obtain-btn.disabled {
+    background: #ccc
+}
+
+.n-input .selectTime-input {
+    position: absolute;
+    width: 48.2%;
+    height: 33px;
+    display: inline-block;
+    *display: inline;
+    *zoom:1;vertical-align: top;
+    right: 5%;
+    top: 0;
+    margin-right: -10px
+}
+
+body .infoShow .register_p {
+    line-height: 22px;
+    padding-top: 6px
+}
+
+body .infoShow .register_h6 {
+    padding-top: 5px
+}
+
+body .selectTime-input input {
+    width: 93%!important;
+    padding: 0 3.5%;
+    margin-left: -2px;
+    line-height: 32px;
+    height: 29px
+}
+
+.select-Parent {
+    position: relative
+}
+
+.selectTime-input.select-Parent>.selectSim-cons {
+    margin-left: -2px
+}
+
+.select-Parent>.selectSim-cons {
+    position: absolute;
+    left: 0;
+    background: #fff;
+    line-height: 35px;
+    z-index: 999;
+    border: 1px solid #bbb;
+    border-top: none;
+    overflow: auto;
+    max-height: 195px;
+    width: 100%
+}
+
+.select-Parent>i.select-icon {
+    position: absolute;
+    right: 2.3%;
+    top: 5px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    background: url(../../../images/tooxiu/home/icon.png?v=068efb349a) no-repeat -225px -75px
+}
+
+.select-Parent>.selectSim-cons ul {
+    background: #fff
+}
+
+.select-Parent>.selectSim-cons li {
+    padding: 0 10px;
+    cursor: pointer
+}
+
+.select-Parent>.selectSim-cons li.cur,.select-Parent>.selectSim-cons li:hover {
+    background: #f5f5f5
+}
+
+.sex-sel {
+    vertical-align: middle
+}
+
+.sex-sel>.selectSim-cons {
+    position: absolute;
+    left: 0;
+    background: #fff;
+    line-height: 35px;
+    z-index: 999;
+    border: 1px solid #bbb;
+    border-top: none;
+    overflow: auto;
+    max-height: 195px;
+    width: 100%
+}
+
+.sex-sel>i.select-icon {
+    position: absolute;
+    right: 2.3%;
+    top: 5px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    background: url(../../../images/tooxiu/home/icon.png?v=068efb349a) no-repeat -225px -75px
+}
+
+.sex-sel>.selectSim-cons ul {
+    background: #fff
+}
+
+.sex-sel>.selectSim-cons li {
+    padding: 0 10px;
+    cursor: pointer
+}
+
+.sex-sel>.selectSim-cons li.cur,.sex-sel>.selectSim-cons li:hover {
+    background: #f5f5f5
+}
+
+.sex-sel>.linkageSelect {
+    display: none;
+    min-height: auto
+}
+
+.sex-sel>span.value {
+    display: inline-block;
+    width: 93%;
+    height: 20px;
+    line-height: 20px;
+    padding: 5px 4px;
+    border: 1px solid #bbb
+}
+
+.columns-t .Pack-pic-btn,.columns-t .Select-all-btn {
+    float: right;
+    line-height: 30px;
+    padding: 0 10px;
+    margin-right: 10px;
+    background-color: #1b9dfa;
+    cursor: pointer;
+    position: relative;
+    color: #fff
+}
+
+.columns-t .Pack-pic-btn:hover,.columns-t .Select-all-btn:hover {
+    background-color: #2085df
+}
+
+.columns-t .Pack-pic-btn {
+    margin-right: 0
+}
+
+.columns-t .Pack-pic-btn i {
+    display: inline-block;
+    *display: inline;
+    *zoom:1;width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -340px -22px;
+    vertical-align: middle
+}
+
+.columns-t .Pack-pic-btn.checked i {
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -360px -22px
+}
+
+.checkBox-ops {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: #fff
+}
+
+.checkBox-ops.checked {
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) #1b9dfa no-repeat -380px -21px
+}
+
+.checkBox-ops i {
+    display: block;
+    border: 2px solid #000;
+    height: 16px
+}
+
+.checkBox-ops.no_powers>i {
+    border: #d4d3d3 2px solid;
+    background: #fff
+}
+
+.checkBox-ops.checked i {
+    border: none
+}
+
+.Subscription .img-div,.menu-nav>dd {
+    cursor: pointer
+}
+
+.submitOrder {
+    padding-bottom: 80px
+}
+
+.canvasBg {
+    background: url(../../../images/tooxiu/public/canvasBg.png?v=26763b0fa8) #fff no-repeat center
+}
+
+#contract-pic .contracts-NoData {
+    background: 0 0;
+    position: absolute;
+    width: 220px;
+    height: 160px;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    margin-top: -80px;
+    margin-left: -110px
+}
+
+#contract-pic .contracts-NoData p {
+    line-height: 24px
+}
+
+.contracts-NoData .icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 15px auto;
+    background: url(../../../images/tooxiu/userCenter/userCenter_icon.png?v=df2fcf3bdc) no-repeat -220px -340px
+}
+
+.contracts-NoData .tit {
+    font: 16px "Microsoft YaHei"
+}
+
+.contracts-NoData .tip {
+    font-size: 16px "Microsoft YaHei";
+    color: #666
+}
+
+.contracts-NoData .tip a {
+    font-size: 16px!important
+}
+
+.contracts-NoData .tip:hover {
+    text-decoration: underline
+}
+
+.grey-disable {
+    background: #aaa!important
+}
+
+.grey-disable:hover {
+    background: #aaa!important
+}
+
+.search-list {
+    height: auto;
+    padding-bottom: 80px
+}
+
+.contractPicBG {
+    min-height: 200px
+}
+
+#messageContent {
+    min-height: 400px
+}
+
+#messageContent .loaderBg {
+    min-height: 400px
+}
+
+body .input-c .get_code.fn-hide {
+    display: none
+}
+
+.drag-movediv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    opacity: .4;
+    filter: alpha(opacity=40)
+}
+
+.drag-movediv a {
+    cursor: move!important
+}
+
+.drag-movediv>li>i {
+    display: none
+}
+
+body .drag-movediv>li {
+    overflow: hidden
+}
+
+body .drag-movediv .add-MyDiction {
+    display: none
+}
+
+body #content-nav-btn .dashed-Li {
+    float: left;
+    height: 91px;
+    border: 2px dotted #fff
+}
+
+.paddBottom80 {
+    padding-bottom: 80px
+}
+
+.conter-item .dashed-P {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 93px;
+    overflow: hidden;
+    padding: 1px
+}
+
+.conter-item .dashed-P em {
+    border: 2px #fff dashed;
+    height: 81px;
+    display: block;
+    background: #000;
+    opacity: .4;
+    margin-top: 4px;
+    filter: alpha(opacity=40)
+}
+
+.blockShow .table-ul {
+    padding: 0 1px
+}
+
+.blockShow .table-ul.table-border {
+    border: 1px #000 solid;
+    padding: 0
+}
+
+.MySubscription .blockTip.notDataDIV {
+    text-align: center;
+    padding: 115px
+}
+
+.blockShow .table-ul.table-border>li {
+    line-height: 38px
+}
+
+.blockTit>a:hover {
+    color: #000;
+    text-decoration: underline
+}
+
+.C-readMsg {
+    cursor: pointer
+}
+
+.page .go:hover {
+    text-decoration: underline;
+    color: #000
+}
+
+.page .page-box {
+    margin-right: 15px
+}
+
+.no_attachment {
+    font-size: 18px;
+    text-align: center;
+    line-height: 24px;
+    padding-top: 90px
+}
+
+.subscription-con .mCSB_inside>.mCSB_container {
+    margin-right: 10px
+}
+
+.accounts-icon-nav .c-ion {
+    background-position: -328px -180px
+}
+
+.message-icon-nav .c-ion {
+    background-position: -287px -180px
+}
+
+.Mydiction-icon-nav.current .c-ion {
+    background-position: 0 -607px
+}
+
+.subscribe-icon-nav.current .c-ion,.subscribe-icon-nav:hover .c-ion {
+    background-position: -41px -607px
+}
+
+.favorites-icon-nav.current .c-ion,.favorites-icon-nav:hover .c-ion {
+    background-position: -82px -607px
+}
+
+.history-icon-nav.current .c-ion,.history-icon-nav:hover .c-ion {
+    background-position: -123px -607px
+}
+
+.s-history-icon-nav.current .c-ion,.s-history-icon-nav:hover .c-ion {
+    background-position: -164px -607px
+}
+
+.down-icon-nav.current .c-ion,.down-icon-nav:hover .c-ion {
+    background-position: -205px -607px
+}
+
+.order-icon-nav.current .c-ion,.order-icon-nav:hover .c-ion {
+    background-position: -246px -607px
+}
+
+.message-icon-nav.current .c-ion,.message-icon-nav:hover .c-ion {
+    background-position: -287px -607px
+}
+
+.accounts-icon-nav.current .c-ion,.accounts-icon-nav:hover .c-ion {
+    background-position: -328px -607px
+}
+
+.onTrial-icon-nav.current .c-ion,.onTrial-icon-nav:hover .c-ion {
+    background-position: -410px -607px
+}
+
+.service-icon-nav.current .c-ion,.service-icon-nav:hover .c-ion {
+    background-position: -369px -607px
+}
+
+.design-icon-nav.current .c-ion,.design-icon-nav:hover .c-ion {
+    background-position: -493px -607px
+}
+
+.MySubscription,.content-nav,.floatBlock,.subscription-con-nav {
+    margin: 0 160px;
+    max-width: inherit
+}
+
+body .padd1mx {
+    padding: 0 10px 10px 0
+}
+
+body .padd1mx>li>span.cur {
+    background: #000
+}
+
+body .padd1mx>li>.padd-t {
+    margin-left: 1px
+}
+
+.child-manage-main {
+    text-align: center
+}
+
+.user-head-con {
+    vertical-align: bottom
+}
+
+.user-head-con .thumb img {
+    width: 105px;
+    height: 105px;
+    -webkit-border-radius: 105px;
+    -moz-border-radius: 105px;
+    border-radius: 105px
+}
+
+.user-head-con .mod-Datas {
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 5px 0;
+    background: #888
+}
+
+.user-head-con .bar-box {
+    position: relative;
+    height: 6px;
+    margin: 25px 0 20px
+}
+
+.user-head-con .noSupCanvas {
+    width: 105px;
+    height: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    top: 0;
+    left: 0;
+    margin: 0
+}
+
+.user-head-con .noSupCanvas .canvas_bgcolor {
+    position: static;
+    -webkit-border-radius: 6px 0 0 6px;
+    -moz-border-radius: 6px 0 0 6px;
+    border-radius: 6px 0 0 6px
+}
+
+.user-head-con .noSupCanvas .canvas_bgcolor>span {
+    right: 50%;
+    top: -20px;
+    text-align: center;
+    margin-right: -20px
+}
+
+.user-head-con .noSupCanvas>span {
+    display: none
+}
+
+.user-info-con {
+    width: 62%;
+    margin-left: 4%;
+    vertical-align: bottom
+}
+
+.user-info-con .con-top {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd
+}
+
+.user-info-con .con-top dl {
+    padding-bottom: 20px
+}
+
+.user-info-con .con-bottom {
+    padding-top: 10px
+}
+
+.user-info-con .con-bottom dl {
+    padding-top: 20px
+}
+
+.user-info-con .fn-left {
+    width: 50%;
+    *width: 49.9%;
+    text-align: left
+}
+
+.user-info-con dl {
+    display: block;
+    font-size: 12px;
+    line-height: 12px;
+    height: 12px
+}
+
+.user-info-con dl>dt {
+    width: 70px;
+    float: left;
+    color: #000;
+    font-weight: 700;
+    text-align: right
+}
+
+.user-info-con .info-Show2>dt {
+    line-height: 20px
+}
+
+.user-info-con .info-Show2>.info-a {
+    line-height: 20px
+}
+
+.mod-Datas-cons .from-ul-s .input-c.w15 {
+    width: 15%
+}
+
+.m-weixin-pay .title {
+    border-bottom: 1px #d5d4d4 solid;
+    padding: 20px 0;
+    color: #556b2f;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bolder
+}
+
+.m-weixin-pay .center-box {
+    width: 750px;
+    margin: 20px auto
+}
+
+.m-weixin-pay .msg,.m-weixin-pay .weixin-ss-icon {
+    display: inline-block
+}
+
+.m-weixin-pay .msg {
+    width: 240px;
+    height: 421px;
+    float: left;
+    margin: 20px
+}
+
+.m-weixin-pay .msg .order-qrcode {
+    height: 200px;
+    width: 200px;
+    background: grey;
+    margin: 0 auto
+}
+
+.m-weixin-pay .msg .order-qrcode img {
+    display: block;
+    width: 100%
+}
+
+.m-weixin-pay .msg .order-infro {
+    height: 60px;
+    position: relative;
+    margin: 25px 0 5px 0;
+    background: #e84a49;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
+}
+
+.m-weixin-pay .msg .order-infro .infro {
+    display: inline-block;
+    width: 120px;
+    float: right;
+    font-size: 16px;
+    margin: 8px 30px 0 0;
+    color: #fff
+}
+
+.m-weixin-pay .msg .arrow-icon {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 13px;
+    left: 30px;
+    background: url(../../../images/tooxiu/userCenter/weixin-msg-icon.png?v=1ce1a1a152) no-repeat
+}
+
+.m-weixin-pay .msg .order-money {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px #d5d4d4 solid;
+    text-align: center
+}
+
+.m-weixin-pay .msg .order-money a {
+    color: red;
+    font-size: 22px;
+    font-weight: 500
+}
+
+.m-weixin-pay .msg .order-desc {
+    min-height: 60px;
+    border-bottom: 1px #d5d4d4 solid;
+    text-align: left;
+    padding-left: 5px
+}
+
+.m-weixin-pay .msg .order-desc a {
+    color: #666;
+    font-size: 15px;
+    margin: 5px 0;
+    display: inline-block;
+    width: 240px;
+    background: #fff;
+    text-align: center
+}
+
+.m-weixin-pay .msg .order-desc a:hover {
+    background: #fff
+}
+
+.m-weixin-pay .order span {
+    display: inline-block
+}
+
+.m-weixin-pay .weixin-ss-icon {
+    width: 329px;
+    height: 421px;
+    margin: 0 0 0 100px;
+    background: url(../../../images/tooxiu/userCenter/weixin-ss.png?v=4a4f6d568e) no-repeat;
+    float: right
+}
+
+@media screen and (min-width: 1920px) {
+    .MySubscription,.content-nav,.floatBlock,.subscription-con-nav {
+        max-width:1600px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .MySubscription,.content-nav,.floatBlock,.subscription-con-nav {
+        margin-right:60px;
+        margin-left: 60px
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    body .login-form .tit-l {
+        width:43%
+    }
+}
+
+@media screen and (max-width: 1290px) {
+    .noSubscription .tipImg {
+        width:17%
+    }
+
+    body .On-line-Pay {
+        padding: 30px 3%
+    }
+
+    body .login-form .tit-l {
+        width: 47%
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body .orderCen-ul .input,body .orderCen-ul .time-input {
+        width:100px
+    }
+
+    body .On-line-Pay {
+        padding: 30px 0;
+        min-width: 880px
+    }
+
+    body .login-form .tit-l {
+        width: 47%
+    }
+}

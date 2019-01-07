@@ -15,7 +15,7 @@
 						</button>
 
 						<!-- #section:basics/sidebar.layout.shortcuts -->
-						<button class="btn btn-warning" title="" id="adminzidian">
+						<button class="btn btn-warning" title="前台首页" id="adminzidian" onclick="window.open('front/home')">
 							<i class="ace-icon fa fa-book"></i>
 						</button>
 

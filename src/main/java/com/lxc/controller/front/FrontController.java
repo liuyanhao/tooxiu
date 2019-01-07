@@ -103,6 +103,102 @@ public class FrontController  {
     }
 
 
+    /**
+     * 首页
+     * @return
+     */
+    @RequestMapping(value="/login")
+    public ModelAndView login(){
+        logBefore(logger, "登录");
+        ModelAndView mv = this.getModelAndView();
+        Map<String,Object> map = new HashMap<String,Object>();
+        PageData pd = new PageData();
+        pd = this.getPageData();
+        String result = "00";
+        try{
+
+        }catch (Exception e){
+
+        }finally {
+            map.put("result", result);
+            logAfter(logger);
+        }
+        mv.setViewName("front/login/login");
+        return mv;
+    }
+
+    /**
+     * 用户中心
+     * @return
+     */
+    @RequestMapping(value="/userCenter")
+    public ModelAndView userCenter(){
+        logBefore(logger, "用户中心");
+        ModelAndView mv = this.getModelAndView();
+        Map<String,Object> map = new HashMap<String,Object>();
+        PageData pd = new PageData();
+        pd = this.getPageData();
+        String result = "00";
+        try{
+
+        }catch (Exception e){
+
+        }finally {
+            map.put("result", result);
+            logAfter(logger);
+        }
+        mv.setViewName("front/user/UserCenter");
+        return mv;
+    }
+
+    /**
+     * 收藏
+     * @return
+     */
+    @RequestMapping(value="/favorites-add")
+    public ModelAndView favoritesAdd(){
+        logBefore(logger, "收藏");
+        ModelAndView mv = this.getModelAndView();
+        Map<String,Object> map = new HashMap<String,Object>();
+        PageData pd = new PageData();
+        pd = this.getPageData();
+        String result = "00";
+        try{
+
+        }catch (Exception e){
+
+        }finally {
+            map.put("result", result);
+            logAfter(logger);
+        }
+        mv.setViewName("front/favorites-add");
+        return mv;
+    }
+
+    /**
+     * 退出
+     * @return
+     */
+    @RequestMapping(value="/public-logout")
+    public ModelAndView publicLogout(){
+        logBefore(logger, "退出");
+        ModelAndView mv = this.getModelAndView();
+        Map<String,Object> map = new HashMap<String,Object>();
+        PageData pd = new PageData();
+        pd = this.getPageData();
+        String result = "00";
+        try{
+
+        }catch (Exception e){
+
+        }finally {
+            map.put("result", result);
+            logAfter(logger);
+        }
+        mv.setViewName("front/public-logout");
+        return mv;
+    }
+
     @RequestMapping(value="/getAppuserByUm")
     @ResponseBody
     public Object getAppuserByUsernmae(){

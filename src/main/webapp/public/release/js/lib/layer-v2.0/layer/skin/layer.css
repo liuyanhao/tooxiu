@@ -1,0 +1,2212 @@
+/*!
+ 
+ @Name: layer's style
+ @Author: 贤心
+ @Blog： sentsin.com
+ */
+
+* html {
+    background-image: url(about:blank);
+    background-attachment: fixed;
+}
+
+html #layui_layer_skinlayercss {
+    display: none;
+    position: absolute;
+    width: 1989px;
+}
+
+/* common */
+.layui-layer-shade, .layui-layer {
+    position: fixed;
+    pointer-events: auto;
+}
+
+.layui-layer-shade {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.layui-layer {
+    top: 150px;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    -webkit-background-clip: content;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, .3);
+}
+
+.layui-layer-close {
+    position: absolute;
+}
+
+.layui-layer-content {
+    position: relative;
+}
+
+.layui-layer-border {
+    border: 1px solid #B2B2B2;
+    border: 1px solid rgba(0, 0, 0, .3);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+}
+
+.layui-layer-moves {
+    position: absolute;
+    border: 3px solid #666;
+    border: 3px solid rgba(0, 0, 0, .5);
+    cursor: move;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .3);
+    filter: alpha(opacity=50);
+}
+
+.layui-layer-load {
+    background: url(default/loading-0.gif) #fff center center no-repeat;
+}
+
+.layui-layer-ico {
+    background: url(/public/images/tooxiu/userCenter/userCenter_icon.png) no-repeat -280px -20px;
+}
+
+.layui-layer-dialog .layui-layer-ico,
+.layui-layer-setwin a,
+.layui-layer-btn a {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+}
+
+/* 动画 */
+.layui-layer {
+    border-radius: 2px;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+}
+
+@-webkit-keyframes bounceIn { /* 默认 */
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.5);
+        transform: scale(.5)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.5);
+        -ms-transform: scale(.5);
+        transform: scale(.5)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+.layui-anim {
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn
+}
+
+@-webkit-keyframes bounceOut {
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(.7);
+        transform: scale(.7)
+    }
+    30% {
+        -webkit-transform: scale(1.03);
+        transform: scale(1.03)
+    }
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes bounceOut {
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(.7);
+        -ms-transform: scale(.7);
+        transform: scale(.7)
+    }
+    30% {
+        -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.03)
+    }
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+.layui-anim-close {
+    -webkit-animation-name: bounceOut;
+    animation-name: bounceOut;
+    -webkit-animation-duration: .2s;
+    animation-duration: .2s;
+}
+
+@-webkit-keyframes zoomInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.1) translateY(-2000px);
+        transform: scale(.1) translateY(-2000px);
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: scale(.475) translateY(60px);
+        transform: scale(.475) translateY(60px);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+}
+
+@keyframes zoomInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.1) translateY(-2000px);
+        -ms-transform: scale(.1) translateY(-2000px);
+        transform: scale(.1) translateY(-2000px);
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: scale(.475) translateY(60px);
+        -ms-transform: scale(.475) translateY(60px);
+        transform: scale(.475) translateY(60px);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+}
+
+.layui-anim-01 {
+    -webkit-animation-name: zoomInDown;
+    animation-name: zoomInDown
+}
+
+@-webkit-keyframes fadeInUpBig {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(2000px);
+        transform: translateY(2000px)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@keyframes fadeInUpBig {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(2000px);
+        -ms-transform: translateY(2000px);
+        transform: translateY(2000px)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+.layui-anim-02 {
+    -webkit-animation-name: fadeInUpBig;
+    animation-name: fadeInUpBig
+}
+
+@-webkit-keyframes zoomInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.1) translateX(-2000px);
+        transform: scale(.1) translateX(-2000px);
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: scale(.475) translateX(48px);
+        transform: scale(.475) translateX(48px);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+}
+
+@keyframes zoomInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.1) translateX(-2000px);
+        -ms-transform: scale(.1) translateX(-2000px);
+        transform: scale(.1) translateX(-2000px);
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: scale(.475) translateX(48px);
+        -ms-transform: scale(.475) translateX(48px);
+        transform: scale(.475) translateX(48px);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+}
+
+.layui-anim-03 {
+    -webkit-animation-name: zoomInLeft;
+    animation-name: zoomInLeft
+}
+
+@-webkit-keyframes rollIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-100%) rotate(-120deg);
+        transform: translateX(-100%) rotate(-120deg)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0px) rotate(0deg);
+        transform: translateX(0px) rotate(0deg)
+    }
+}
+
+@keyframes rollIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-100%) rotate(-120deg);
+        -ms-transform: translateX(-100%) rotate(-120deg);
+        transform: translateX(-100%) rotate(-120deg)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0px) rotate(0deg);
+        -ms-transform: translateX(0px) rotate(0deg);
+        transform: translateX(0px) rotate(0deg)
+    }
+}
+
+.layui-anim-04 {
+    -webkit-animation-name: rollIn;
+    animation-name: rollIn
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+.layui-anim-05 {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn
+}
+
+@-webkit-keyframes shake {
+    0%, 100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+    10%, 30%, 50%, 70%, 90% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px)
+    }
+    20%, 40%, 60%, 80% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px)
+    }
+}
+
+@keyframes shake {
+    0%, 100% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0)
+    }
+    10%, 30%, 50%, 70%, 90% {
+        -webkit-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+        transform: translateX(-10px)
+    }
+    20%, 40%, 60%, 80% {
+        -webkit-transform: translateX(10px);
+        -ms-transform: translateX(10px);
+        transform: translateX(10px)
+    }
+}
+
+.layui-anim-06 {
+    -webkit-animation-name: shake;
+    animation-name: shake
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+/* 标题栏 */
+.layui-layer-title, .read-dialog-layer-title {
+    font-family: "微软雅黑";
+    font-weight: bold;
+    padding: 0 80px 0 0;
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 2px solid #000;
+    font-size: 18px;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-radius: 2px 2px 0 0;
+}
+
+.read-dialog-layer-close, .layui-layer-setwin {
+    position: absolute;
+    right: 15px;
+    *right: 0;
+    top: 10px;
+    font-size: 0;
+    line-height: initial;
+}
+
+.layui-layer-setwin a {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 12px;
+    _overflow: hidden;
+}
+
+.layui-layer-setwin .layui-layer-min cite {
+    position: absolute;
+    width: 14px;
+    height: 2px;
+    left: 0;
+    top: 50%;
+    margin-top: -1px;
+    background-color: #2E2D3C;
+    cursor: pointer;
+    _overflow: hidden;
+}
+
+.layui-layer-setwin .layui-layer-min:hover cite {
+    background-color: #2D93CA;
+}
+
+.layui-layer-setwin .layui-layer-max {
+    background-position: -32px -40px;
+}
+
+.layui-layer-setwin .layui-layer-max:hover {
+    background-position: -16px -40px;
+}
+
+.layui-layer-setwin .layui-layer-maxmin {
+    background-position: -65px -40px;
+}
+
+.layui-layer-setwin .layui-layer-maxmin:hover {
+    background-position: -49px -40px;
+}
+
+.layui-layer-setwin .layui-layer-close:hover, .read-dialog .layui-layer-ico:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.layui-layer-setwin .layui-layer-close1 {
+    position: absolute;
+    right: -28px;
+    top: -28px;
+    width: 30px;
+    height: 30px;
+    margin-left: 0;
+    background-position: -149px -31px;
+    *right: -18px;
+    _display: none;
+}
+
+.layui-layer-setwin .layui-layer-close1:hover {
+    background-position: -180px -31px;
+}
+
+/* 按钮栏 */
+.layui-layer-btn, .read-dialog-layer-btn {
+    border-top: 1px solid #dddddd;
+    text-align: center;
+    padding: 15px 0;
+    pointer-events: auto;
+}
+
+.layui-layer-btn a, .read-dialog-layer-btn a {
+    line-height: 30px;
+    margin: 0 15px;
+    padding: 0px 35px;
+    display: inline-block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    background: #333333;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* .layui-layer-btn a:hover,.read-dialog-layer-btn a:hover{opacity:0.8; text-decoration: none;filter:alpha(opacity=80);} */
+.layui-layer-btn a:active {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.layui-layer-btn .layui-layer-btn0 {
+    background-color: #333;
+    color: #fff;
+}
+
+.layui-layer-btn .layui-layer-btn0:hover, .read-dialog-layer-btn a:hover {
+    text-decoration: none;
+    background-color: #000;
+}
+
+.layui-layer-btn .layui-layer-btn1, .layui-layer-btn .layui-layer-btn2 {
+    background-color: #888888;
+    color: #fff;
+}
+
+.layui-layer-btn .layui-layer-btn1:hover, .layui-layer-btn .layui-layer-btn2:hover {
+    text-decoration: none;
+    background-color: #666666;
+}
+
+/* 定制化 */
+.layui-layer-dialog {
+    min-width: 260px;
+}
+
+.layui-layer-dialog .layui-layer-content {
+    position: relative;
+    padding: 20px;
+    line-height: 24px;
+    word-break: break-all;
+    font-size: 14px;
+}
+
+.layui-layer-dialog .layui-layer-content .layui-layer-ico {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    _left: -40px;
+    width: 30px;
+    height: 30px;
+}
+
+.layui-layer-ico0 {
+    background-position: 0 0
+}
+
+.layui-layer-ico1 {
+    background-position: -30px 0
+}
+
+.layui-layer-ico2 {
+    background-position: -60px 0;
+}
+
+.layui-layer-ico3 {
+    background-position: -90px 0;
+}
+
+.layui-layer-ico4 {
+    background-position: -120px 0;
+}
+
+.layui-layer-ico5 {
+    background-position: -150px 0;
+}
+
+.layui-layer-ico6 {
+    background-position: -180px 0;
+}
+
+.layui-layer-rim {
+    border: 6px solid #8D8D8D;
+    border: 6px solid rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.layui-layer-msg {
+    min-width: 0;
+    border: 1px solid #000;
+    box-shadow: none;
+}
+
+.layui-layer-msg .layui-layer-content {
+    font: 14px "Microsoft YaHei";
+    color: #fff;
+    background-color: #000;
+    white-space: nowrap;
+}
+
+.layui-layer-msg .layui-layer-ico {
+    background-image: url(default/icon.png);
+}
+
+.layui-layer-hui {
+    min-width: 100px;
+    background-color: #000;
+    filter: alpha(opacity=60);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: none;
+}
+
+.layui-layer-hui .layui-layer-content {
+    padding: 12px 25px;
+    text-align: center;
+}
+
+.layui-layer-dialog .layui-layer-padding {
+    padding: 20px 20px 20px 55px;
+    text-align: left;
+}
+
+.layui-layer-page .layui-layer-content {
+    position: relative; /* overflow:auto; */
+}
+
+.layui-layer-page .layui-layer-btn, .layui-layer-iframe .layui-layer-btn {
+    padding-top: 10px;
+}
+
+.layui-layer-nobg {
+    background: none;
+}
+
+.layui-layer-iframe .layui-layer-content {
+    overflow: hidden;
+}
+
+.layui-layer-iframe iframe {
+    display: block;
+    width: 100%;
+}
+
+.layui-layer-loading {
+    border-radius: 100%;
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+.layui-layer-loading .layui-layer-content {
+    width: 60px;
+    height: 24px;
+    background: url(default/loading-0.gif) no-repeat;
+}
+
+.layui-layer-loading .layui-layer-loading1 {
+    width: 80px;
+    height: 80px;
+    background: url(default/loading-1.gif) no-repeat;
+}
+
+.layui-layer-loading .layui-layer-loading2, .layui-layer-ico16 {
+    width: 32px;
+    height: 32px;
+    background: url(default/loading-2.gif) no-repeat;
+}
+
+.layui-layer-tips {
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+.layui-layer-tips .layui-layer-content {
+    position: relative;
+    line-height: 22px;
+    min-width: 12px;
+    padding: 5px 10px;
+    font-size: 12px;
+    _float: left;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    background-color: #FF9900;
+    color: #fff;
+}
+
+.layui-layer-tips .layui-layer-close {
+    right: -2px;
+    top: -1px;
+}
+
+.layui-layer-tips i.layui-layer-TipsG {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 8px;
+    border-color: transparent;
+    border-style: dashed;
+    *overflow: hidden;
+}
+
+.layui-layer-tips i.layui-layer-TipsT, .layui-layer-tips i.layui-layer-TipsB {
+    left: 5px;
+    border-right-style: solid;
+    border-right-color: #FF9900;
+}
+
+.layui-layer-tips i.layui-layer-TipsT {
+    bottom: -8px;
+}
+
+.layui-layer-tips i.layui-layer-TipsB {
+    top: -8px;
+}
+
+.layui-layer-tips i.layui-layer-TipsR, .layui-layer-tips i.layui-layer-TipsL {
+    top: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FF9900;
+}
+
+.layui-layer-tips i.layui-layer-TipsR {
+    left: -8px;
+}
+
+.layui-layer-tips i.layui-layer-TipsL {
+    right: -8px;
+}
+
+/* skin */
+.layui-layer-lan[type="dialog"] {
+    min-width: 280px;
+}
+
+.layui-layer-lan .layui-layer-title {
+    background: #4476A7;
+    color: #fff;
+    border: none;
+}
+
+.layui-layer-lan
+.layui-layer-lan .layui-layer-btn {
+    padding: 10px;
+    text-align: right;
+    border-top: 1px solid #E9E7E7
+}
+
+.layui-layer-lan .layui-layer-btn a {
+    background: #BBB5B5;
+    border: none;
+}
+
+.layui-layer-lan .layui-layer-btn .layui-layer-btn1 {
+    background: #C9C5C5;
+}
+
+.layui-layer-molv .layui-layer-title {
+    background: #009f95;
+    color: #fff;
+    border: none;
+}
+
+.layui-layer-molv .layui-layer-btn a {
+    background: #009f95;
+}
+
+.layui-layer-molv .layui-layer-btn .layui-layer-btn1 {
+    background: #92B8B1;
+}
+
+.layui-layer-molv .layui-layer-btn .layui-layer-btn1.layui-layer-btn-j {
+    padding: 0 44px
+}
+
+/** 新服装网 自定义内容页 ***/
+html #layui_layer_devstyletooxiulayercss {
+    display: none;
+    position: absolute;
+    width: 1989px;
+}
+
+/* 登录弹出层 */
+.login-layer .top {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.login-layer .text-input {
+    width: 172px;
+    padding-right: 8px;
+}
+
+.login-layer .main {
+    padding: 10px 0 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.login-layer .left {
+    float: left;
+    width: 240px;
+    padding-left: 30px;
+    border-right: 1px solid #ddd;
+}
+
+.login-layer .left li {
+    padding-bottom: 8px;
+}
+
+.login-layer .left .btn-input-big {
+    margin-top: 10px;
+}
+
+.login-layer .right {
+    padding-top: 22px;
+    text-align: center;
+}
+
+.login-layer .right p {
+    color: #666;
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+.login-layer .bottom {
+    padding: 20px 0;
+    color: #666;
+    text-align: center;
+}
+
+.login-layer .code {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.login-layer .code .item {
+    color: #333;
+    width: 150px;
+}
+
+.login-layer .code i {
+    width: 138px;
+    height: 138px;
+    border: 1px solid #ccc;
+}
+
+.login-layer .code .weibo {
+    background-position: 0 -158px;
+}
+
+.login-layer .code .weixin {
+    background-position: -138px -158px;
+}
+
+.login-layer .code .kefu {
+    background-position: -276px -158px;
+}
+
+.ext-login {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    background: url(/public/images/tooxiu/home/common.png) no-repeat;
+    vertical-align: middle;
+}
+
+.ext-qq {
+    background-position: -11px -209px;
+}
+
+.ext-sina {
+    background-position: -51px -209px;
+}
+
+.ext-wx {
+    background-position: -92px -209px;
+}
+
+.ext-bd {
+    background-position: -132px -209px;
+}
+
+.ext-tao {
+    background-position: -173px -209px;
+}
+
+.ext-pin {
+    background-position: -214px -209px;
+}
+
+.ext-qq:hover {
+    background-position: -11px -250px;
+}
+
+.ext-sina:hover {
+    background-position: -51px -250px;
+}
+
+.ext-wx:hover {
+    background-position: -92px -250px;
+}
+
+.ext-bd:hover {
+    background-position: -132px -250px;
+}
+
+.ext-tao:hover {
+    background-position: -173px -250px;
+}
+
+.ext-pin:hover {
+    background-position: -214px -250px;
+}
+
+/*更多弹出层*/
+.attr-layer .small-search {
+    position: absolute;
+    left: 120px;
+    top: -38px;
+    z-index: 1;
+}
+
+.attr-content {
+    height: 283px;
+    padding: 15px 0;
+    overflow-y: auto;
+}
+
+.attr-item {
+    margin-bottom: 20px;
+}
+
+.attr-bd {
+    padding: 0px 0 10px 0;
+    border-bottom: 1px dotted #aaa;
+}
+
+.attr-bd a {
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+.attr-before a {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 4px 4px 4px 0;
+    width: 128px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.attr-hd a, .attr-hd {
+    font: bold 16px/30px "Microsoft Yahei";
+    color: #1d86e1;
+}
+
+.attr-bd .attr-inner {
+    display: inline-block;
+    width: 25%;
+    padding: 6px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.attr-item a:hover, .attr-item .cur {
+    text-decoration: underline;
+}
+
+.attr-second {
+    display: inline-block;
+    padding: 6px 0;
+}
+
+.attr-second a {
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+.attr-sub {
+    overflow: hidden;
+}
+
+.attr-third a {
+    font-weight: normal;
+}
+
+.attr-sub-hd {
+    display: inline-block;
+    min-width: 50px;
+    padding-right: 20px;
+    vertical-align: middle;
+    background: url(tooxiu/arrow.gif) no-repeat right center;
+}
+
+.attr-third {
+    display: inline-block;
+    width: 475px;
+    vertical-align: middle;
+}
+
+.attr-third a {
+    white-space: nowrap;
+    line-height: 20px;
+}
+
+.attr-select {
+    font-size: 0;
+}
+
+.attr-select a {
+    font-size: 12px;
+    display: inline-block;
+    padding: 3px 10px 4px;
+    margin: 10px 10px 0 0;
+    color: #0066be;
+    background-color: #e8f4ff;
+}
+
+.attr-select a:hover, .attr-select .cur {
+    color: #fff;
+    background-color: #1d86e1;
+}
+
+/*下载弹出层*/
+.down-layer .icon-warning {
+    float: left;
+    margin: -5px 10px 0 0;
+}
+
+.down-layer .top {
+    padding: 30px 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+.down-layer .top .time {
+    font: 14px "Microsoft Yahei";
+}
+
+.down-layer .top .tip {
+    color: #666;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+.down-layer .bottom {
+    padding: 10px 0 40px;
+}
+
+.down-layer .bottom a {
+    color: #666;
+}
+
+.down-layer .bottom input {
+    float: right;
+}
+
+/* 注册引导弹出层 */
+.register-fast {
+    font-size: 30px;
+    font-style: italic;
+    color: #666;
+}
+
+.register-fast em {
+    font: italic 60px Times New Roman;
+    color: #1d86e1;
+}
+
+.register-fast span {
+    font-style: normal;
+    color: #666;
+    margin-left: 10px;
+}
+
+.register-fast:hover {
+    text-decoration: none;
+}
+
+.register-fast:hover {
+    color: #000;
+}
+
+.register-fast:hover span {
+    color: #000;
+}
+
+.register-layer {
+    padding: 0 15px;
+}
+
+.register-layer .top {
+    padding: 35px 0;
+    text-align: center;
+}
+
+.register-layer .hr {
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+    text-align: center;
+}
+
+.register-layer .hr span {
+    display: inline-block;
+    position: relative;
+    top: -12px;
+    padding: 0 10px;
+    background-color: #fff;
+}
+
+.register-layer .ext-login-big {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.ext-login-big .ext-login {
+    width: 66px;
+    height: 66px;
+}
+
+.ext-login-big .ext-qq {
+    background-position: -480px 0;
+}
+
+.ext-login-big .ext-sina {
+    background-position: -556px 0;
+}
+
+.ext-login-big .ext-wx {
+    background-position: -633px 0;
+}
+
+.ext-login-big .ext-bd {
+    background-position: -709px 0;
+}
+
+.ext-login-big .ext-tao {
+    background-position: -785px 0;
+}
+
+.ext-login-big .ext-pin {
+    background-position: -862px 0;
+}
+
+.ext-login-big .ext-qq:hover {
+    background-position: -480px -74px;
+}
+
+.ext-login-big .ext-sina:hover {
+    background-position: -556px -74px;
+}
+
+.ext-login-big .ext-wx:hover {
+    background-position: -633px -74px;
+}
+
+.ext-login-big .ext-bd:hover {
+    background-position: -709px -74px;
+}
+
+.ext-login-big .ext-tao:hover {
+    background-position: -785px -74px;
+}
+
+.ext-login-big .ext-pin:hover {
+    background-position: -862px -74px;
+}
+
+.register-layer .bottom {
+    margin: 60px 0 20px;
+}
+
+.register-layer .bottom .btn-gray {
+    float: right;
+    position: relative;
+    top: -6px;
+    border-radius: 2px;
+}
+
+/*未授权引导弹出层*/
+.power-layer .top {
+    padding: 10px 0 30px;
+    text-align: center;
+}
+
+.power-layer .bottom {
+    padding: 0 0 50px 0;
+}
+
+.kf-item {
+    float: left;
+    width: 50%;
+}
+
+.kf-item-inner {
+    margin: 0 auto;
+    padding: 0 35px;
+    border-right: 1px solid #ddd;
+}
+
+.kf-item-inner .hd {
+    font-size: 14px;
+    font-weight: bold;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+    background: #eee;
+    background: -webkit-linear-gradient(left, rgb(238, 238, 238) 50%, transparent);
+    background: -moz-linear-gradient(left, rgb(238, 238, 238) 50%, transparent);
+    background: -ms-linear-gradient(left, rgb(238, 238, 238) 50%, transparent);
+    background: linear-gradient(left, rgb(238, 238, 238) 50%, transparent);
+}
+
+.kf-item-inner .item {
+    display: block;
+    margin-top: 15px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.kf-item-inner .item .icon {
+    margin: -1px 5px 0 0;
+}
+
+.kf-item-inner a {
+    text-decoration: underline;
+}
+
+/*无权限，已到期*/
+.overdue-layer .top {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.overdue-layer .top em {
+    color: #000;
+}
+
+.overdue-layer .bottom .hd {
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.price-item {
+    float: left;
+    text-align: center;
+}
+
+.price-item a:hover {
+    text-decoration: none;
+}
+
+.price-item-inner {
+    position: relative;
+    display: block;
+    height: 119px;
+    margin: 0 8px;
+    border: 1px solid #c6c6c6;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.price-item-inner .more {
+    display: inline-block;
+    vertical-align: middle;
+    color: #666;
+}
+
+.price-detail {
+    width: 100%;
+    height: 93px;
+    border-bottom: 1px solid #c6c6c6;
+    background-color: #fff;
+}
+
+.price-detail-inner {
+    display: inline-block;
+    *display: inline;;
+    *zoom: 1;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.price-item-inner .bt {
+    height: 24px;
+    line-height: 22px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.price-item-inner .bt span {
+    color: #000;
+}
+
+.price-item-inner .bt a {
+    width: 24px;
+    height: 24px;
+    line-height: 22px;
+}
+
+.minus {
+    float: left;
+    border-right: 1px solid #c6c6c6;
+}
+
+.plus {
+    float: right;
+    border-left: 1px solid #c6c6c6;
+}
+
+.choose {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    background: url(/public/release/images/tooxiu/home/common.png) no-repeat -480px -168px;
+}
+
+.price-item .cur, .price-item .cur .price-detail {
+    color: #1d86e1;
+    border-color: #1d86e1;
+}
+
+.price-item .cur .bt a {
+    color: #fff;
+    border-color: #1d86e1;
+    background-color: #1d86e1;
+}
+
+.price-item .cur .choose {
+    display: block;
+}
+
+.overdue-layer .confirm {
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    padding: 24px 10px
+}
+
+.overdue-layer .confirm a {
+    float: right;
+}
+
+/*弹窗css*/
+.dialog-tooxiu-con {
+    position: fixed;
+    border: 4px solid #000;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+}
+
+.dialog-tooxiu-con .dialog-tooxiu-cons {
+    /* margin: 20px 0; */
+    *zoom: 1;
+}
+
+#dialog-down-temp .tips {
+    font-weight: normal;
+    font-style: normal;
+}
+
+.dialog-tooxiu-con .center-info-tip > p {
+    margin: 0 50px;
+    text-align: left;
+    height: auto;
+    *zoom: 1;
+}
+
+.dialog-tooxiu-con .center-info-tip > p > span.tit {
+    font-size: 14px;
+    color: #000;
+}
+
+.dialog-tooxiu-con > div {
+    margin: 0 15px;
+}
+
+.dialog-tooxiu-con .center-info-tip > p > span.tip {
+    font-size: 12px;
+    color: #000;
+}
+
+.diction-note {
+    padding: 20px 24px 10px;
+    text-align: left;
+}
+
+.dialog-tooxiu-con .dialog-diction-tip > p.p-warning {
+    margin: 20px auto;
+}
+
+.diction-note > li {
+    padding: 25px 0 24px;
+}
+
+.diction-note > li > p {
+    line-height: 24px;
+    padding: 10px 0;
+}
+
+.diction-note > li > span {
+    position: relative;
+    font: bold 14px/26px '宋体';
+    height: 26px;
+    display: block;
+}
+
+.diction-note > .line-a {
+    border-bottom: 1px dotted #888;
+}
+
+.diction-note > .line-a.top-line-a {
+    padding-top: 15px;
+}
+
+.del-diction-tip {
+    padding: 15px 0;
+}
+
+.dic-icon > i {
+    position: absolute;
+    width: 126px;
+    height: 26px;
+    bottom: 0px;
+    left: 45px;
+    background: url('../../../../../../images/tooxiu/userCenter/userCenter_icon.png') #1b9dfa no-repeat;
+    *zoom: 1;
+    *display: inline;
+    *visibility: visible;
+}
+
+.dic-del > i {
+    background-position: 0px -412px;
+}
+
+.dic-add > i {
+    background-position: 0px -383px;
+}
+
+.dic-sort > i {
+    position: absolute;
+    height: 26px;
+    width: 35px;
+    top: 0;
+}
+
+.dic-sort > .icon {
+    left: 92px;
+    background: url('../../../../../../images/tooxiu/userCenter/userCenter_icon.png') no-repeat -60px -112px;
+}
+
+.dic-sort > .blue1 {
+    left: 45px;
+    width: 42px;
+    background: #82cbff;
+}
+
+.dic-sort > .blue2 {
+    left: 129px;
+    width: 42px;
+    background: #1b9dfa;
+}
+
+.dialog-tooxiu-cons .t-warning {
+    text-align: center;
+    /* margin-top: -10px;  */
+}
+
+.border_1 {
+    border-top: 1px dotted #bbbbbb;
+}
+
+.from-ul-s {
+    padding: 0 0 30px 0;
+    line-height: 30px;
+}
+
+.from-ul-s .name {
+    width: 35%;
+    text-align: right;
+}
+
+.from-ul-s > li {
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.from-ul-s > li > div {
+    display: inline-block;
+    *display: inline;
+}
+
+.from-ul-s .input-c {
+    position: relative;
+    width: 49%;
+}
+
+.input-c input {
+    width: 93%;
+    height: 20px;
+    line-height: 20px;
+    padding: 5px 4px;
+    border: 1px solid #bbbbbb;
+}
+
+.notice-tit-a {
+    margin: 0 64px 5px;
+    padding-top: 25px
+}
+
+.notice-tit-a input {
+    /* width: 12px;
+    height: 12px; */
+    border: 1px solid #bbbbbb;
+    margin-right: 10px;
+    vertical-align: middle;
+    /* -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background: #f0f0f0; */
+}
+
+.input-c .code-i {
+    width: 48%;
+}
+
+.input-c .get_code {
+    text-align: center;
+    width: 25%;
+    position: absolute;
+    height: 30px;
+    top: 0;
+    right: 4px;
+    display: inline-block;
+    padding: 0 5%;
+    background: #1b9dfa;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn-layer-left-l .layui-layer-btn {
+    /* text-align:right; */
+}
+
+.down-tips {
+    position: relative;
+}
+
+.down-tips > .p-warning {
+    text-align: left;
+    margin: 0 !important;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    margin: 20px 40px 0 !important;
+    font-weight: bold;
+}
+
+.down-tips > .p-warning i.blue {
+    color: #0089ea
+}
+
+.down-tips > .info-gts {
+    text-align: left;
+    margin: 20px 40px 0 !important;
+    padding: 0 !important;
+    font-size: 12px;
+    color: #666666;
+}
+
+.down-tips .link-down {
+    position: absolute;
+    left: -20px;
+    bottom: -70px;
+    font-size: 12px;
+    color: #666;
+}
+
+.dialog-tooxiu-cons .refresh-code {
+    position: absolute;
+    top: 5px;
+    right: -31px;
+    width: 20px;
+    height: 20px;
+    background: url('../../../../../../images/tooxiu/userCenter/userCenter_icon.png') no-repeat -60px -20px;
+    cursor: pointer;
+}
+
+.dialog-tooxiu-con .true-btn-tip > p {
+    margin: 10px 25px;
+}
+
+.read-dialog {
+    /* max-height: 510px;  */
+}
+
+.read-dialog-layer-title {
+    padding: 14px 80px 12px 0;
+    height: 55px;
+}
+
+.read-dialog-layer-title > .icon {
+    float: left;
+    width: 55px;
+    height: 55px;
+    background: url('../../../../../../images/tooxiu/userCenter/userCenter_icon.png') no-repeat -80px -440px;
+}
+
+.read-dialog-layer-title > .tit, .read-dialog-layer-title > .time {
+    display: block;
+    padding-right: 10px;
+    margin-left: 65px;
+}
+
+.read-dialog-layer-title > .tit {
+    font: bold 18px/34px '微软雅黑';
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.read-dialog-layer-title > .time {
+    font: 12px/18px "宋体";
+    color: #666;
+}
+
+.read-dialog .layui-layer-ico {
+    background: url('../../../../../../images/tooxiu/userCenter/userCenter_icon.png') no-repeat -280px -20px;
+    cursor: pointer;
+    top: 12px;
+}
+
+.read-dialog-layer-cons {
+    padding: 28px 4px;
+}
+
+.read-dialog-bar {
+    text-indent: 20px;
+    max-height: 155px;
+    overflow: auto;
+    color: #666;
+    line-height: 26px;
+}
+
+.read-dialog-bar {
+    word-break: break-all;
+}
+
+.read-attachment {
+    margin: 0 4px 20px;
+    padding: 0 16px;
+    background: #f0f8ff;
+}
+
+.read-attachment > h6 {
+    border-bottom: 1px solid #c6e1f8;
+    font: bold 12px/34px "宋体";
+    color: #000;
+}
+
+.read-attachment > h6 > span {
+    padding: 0 8px;
+}
+
+.read-attachment-ul {
+    padding: 8px 0;
+}
+
+.read-attachment .read-attachment-cons {
+    padding: 8px 0;
+    max-height: 165px;
+    overflow: hidden;
+}
+
+.read-attachment-cons ul.read-attachment-ul {
+    padding: 0;
+}
+
+.read-attachment-ul > li {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    line-height: 33px;
+    position: relative;
+}
+
+.read-attachment-ul > li i {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 4px;
+    left: 0px;
+    background: url('../../../../../../images/tooxiu/userCenter/userCenter_icon.png') no-repeat;
+}
+
+.read-attachment-ul > li .size {
+    padding-left: 5px;
+    vertical-align: middle;
+    color: #777;
+    float: left;
+}
+
+.read-attachment-ul > li .RAR-s {
+    background-position: -272px -143px;
+}
+
+.read-attachment-ul > li .PPT-s, .read-attachment-ul > li .PPTX-s {
+    background-position: -243px -112px;
+}
+
+.read-attachment-ul > li .PDF-s {
+    background-position: -183px -112px;
+}
+
+.read-attachment-ul > li .DOC-s, .read-attachment-ul > li .DOCX-s {
+    background-position: -271px -112px;
+}
+
+.read-attachment-ul > li .ZIP-s {
+    background-position: -212px -112px;
+}
+
+.read-attachment-ul > li .PSD-s {
+    background-position: -330px -142px;
+}
+
+.read-attachment-ul > li .PNG-s {
+    background-position: -330px -113px;
+}
+
+.read-attachment-ul > li .EXE-s {
+    background-position: -300px -112px;
+}
+
+.read-attachment-ul > li .JPG-s {
+    background-position: -300px -143px;
+}
+
+.read-attachment-ul > li .TXT-s {
+    background-position: -360px -142px;
+}
+
+.read-attachment-ul > li .XLS-s, .read-attachment-ul > li .XLSX-s {
+    background-position: -241px -143px;
+}
+
+.read-attachment-ul > li .JPEG-s {
+    background-position: -361px -112px;
+}
+
+.read-attachment-ul > li .overflow-hide {
+    padding: 0 0 0 30px;
+    max-width: 65%;
+    display: inline-block;
+    float: left;
+}
+
+.dialog-tooxiu-con .replac-Email-cons .warning-info {
+    margin: -10px 0 0 0;
+    color: #f78529;
+    font-size: 12px;
+    position: relative;
+    padding: 0 0 0 10px;
+    text-align: left;
+    line-height: 18px;
+}
+
+.replac-Email-cons .warning-info > span {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: -15px;
+    top: 0px;
+    background: url('../../../../../../images/tooxiu/userCenter/userCenter_icon.png') no-repeat -100px -20px;
+}
+
+.replac-Email-cons .from-ul-s {
+    padding-bottom: 10px;
+    text-align: left;
+    margin-top: 10px;
+    padding: 0 0 5px 0;
+}
+
+.replac-Email-cons .from-ul-s input, .replac-Mobile-cons .from-ul-s input {
+    padding: 5px 4px;
+}
+
+.replac-Email-cons .from-ul-s .input-c {
+    width: 49%;
+}
+
+.replac-Mobile-cons .from-ul-s .input-c {
+    width: 49%;
+}
+
+.replac-Mobile-cons .input-c .get_code {
+    right: 4px;
+}
+
+.replac-Email-cons .from-ul-s div.name, .replac-Mobile-cons .from-ul-s div.name {
+    width: 26%;
+}
+
+.replac-Mobile-cons .from-ul-s {
+    padding: 18px 0 14px;
+    text-align: left;
+}
+
+.mod-Password-cons .from-ul-s {
+    padding: 18px 0 0px;
+    text-align: left;
+}
+
+.mod-Password-cons .from-ul-s div.name {
+    width: 32%;
+}
+
+.mod-Password-cons .level-p {
+    color: #b4b4b4;
+}
+
+.mod-Password-cons .level-p > p {
+    width: 201px;
+    height: 4px;
+    line-height: 4px;
+    overflow: hidden;
+}
+
+.level-p > p > span {
+    position: relative;
+    width: 32%;
+    height: 6px;
+    display: inline-block;
+    background: #767676;
+}
+
+.level-p > p > span > i {
+    position: absolute;
+    width: 98%;
+    top: 0;
+    left: 1%;
+    background: #767676;
+    height: 4px;
+}
+
+.level-p > p > span.red {
+    background-color: #e42121;
+}
+
+.level-p > p > span.yellow {
+    background-color: #eab102;
+}
+
+.level-p > p > span.green {
+    background-color: #39b624;
+}
+
+.dialog-tooxiu-con .mod-Datas-cons .border_1 {
+    width: 100%;
+    margin: 5px 0;
+    padding: 0;
+    height: 1px;
+    position: relative;
+}
+
+.mod-Datas-cons .t-warning {
+    position: absolute;
+    top: -34px;
+    left: 78px;
+}
+
+.l-warning {
+    position: absolute;
+    top: -34px;
+    left: 115px;
+}
+
+.dialog-modDatas.layui-layer-dialog .layui-layer-content {
+    padding: 5px 20px;
+}
+
+.dialog-tooxiu-con .mod-Datas-cons .text-border {
+    margin-top: 8px;
+}
+
+.mod-Datas-cons .text-border > span {
+    text-align: center;
+    position: absolute;
+    height: 20px;
+    line-height: 20px;
+    width: 210px;
+    left: 50%;
+    margin-left: -105px;
+    background: #fff;
+    top: -13px;
+    color: #888888;
+    font-size: 12px;
+}
+
+.mod-Datas-cons .from-ul-s {
+    padding: 0px 0 0;
+}
+
+.mod-Datas-cons .from-ul-s .input-c {
+    width: 49%;
+}
+
+.mod-Datas-cons .from-ul-s .input-c.wis90 {
+    width: 80%;
+}
+
+.mod-Datas-cons {
+    text-align: left;
+}
+
+.mod-Datas-cons .from-ul-s div.name {
+    width: 18%;
+}
+
+.mod-Datas-cons .input-c input {
+    padding: 5px 4px;
+}
+
+.grey-bg {
+    background: #f0f0f0;
+}
+
+.grey-font {
+    color: #666666;
+}
+
+.dialog-tooxiu-con .onTrial-btn-tip > p {
+    margin: 0px 0 8px;
+
+}
+
+.dialog-tooxiu-con .onTrial-btn-tip > p > span.tip {
+    color: #666666;
+}
+
+body .dialog-line-Pay {
+    padding: 0;
+}
+
+.dialog-line-PayTit .top {
+    position: absolute;
+    left: 20%;
+    top: 2px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.dialog-line-Pay .hover-tit {
+    width: 59.733%;
+    margin: 30px auto 0;
+}
+
+.dialog-line-Pay .hover-tit > li {
+    height: 28px;
+    line-height: 28px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #666666;
+    background: #fff;
+}
+
+.dialog-line-Pay .hover-tit > li.one-a {
+    border: 1px solid #666;
+    border-right: none;
+}
+
+.dialog-line-Pay .hover-tit > li.two-a {
+    border: 1px solid #666;
+}
+
+.dialog-line-Pay .hover-tit > li.three-a {
+    border: 1px solid #666;
+    border-left: none;
+}
+
+.dialog-line-Pay .hover-tit > li.cur {
+    background: #666;
+    color: #fff;
+    font-weight: bold;
+}
+
+.dialog-line-Pay .public-pay .bank-info {
+    font-size: 12px;
+    font-family: '宋体';
+    padding-top: 54px;
+    margin-top: 0;
+}
+
+.dialog-line-Pay .center-p .padd-p {
+    font-size: 12px;
+    font-family: '宋体';
+}
+
+.dialog-line-Pay .center-p {
+    padding: 30px 0 60px;
+}
+
+.dialog-line-Pay .Private-Pay .center-p {
+    padding-top: 40px;
+}
+
+.dialog-line-Pay .public-pay .bank-info > i {
+    height: 50px;
+    background-position: 0 -50px;
+}
+
+.dialog-line-Pay .dialog-bank1 {
+    padding-top: 60px;
+}
+
+.dialog-line-Pay .dialog-bank1 .padd-p {
+    padding-left: 13px;
+    display: inline-block;
+}
+
+.dialog-line-Pay .public-pay .b-left > i {
+    background-position: 0 0;
+}
+
+.dialog-line-Pay .public-pay .b-left.CMB > i {
+    background-position: 0 -147px;
+}
+
+.public-pay .b-left.CMB {
+    margin-top: 0;
+}
+
+.public-pay .b-left.CMB > i {
+    top: 6px;
+    background-position: 0 -643px;
+}
+
+.dialog-line-Pay .Private-Pay .center-p p {
+    line-height: 22px;
+    margin-top: 0;
+    float: left;
+    margin: 7% 0 0 9%;
+}
+
+.dialog-line-Pay .Private-Pay {
+    padding-left: 26px;
+}
+
+/* .dialog-line-Pay .Private-Pay .BOCOM,.dialog-line-Pay .Private-Pay .CMB{
+    padding-top: 90px;
+} */
+/* .dialog-line-Pay .Private-Pay .BOCOM>i,.dialog-line-Pay .Private-Pay .CMB>i{
+    top:35px;    
+} */
+.transfer-dialog .layui-layer-setwin {
+    right: 0;
+}
+
+.mod-Password-cons label.error {
+    border: none;
+    background: #fff url(/public/images/tooxiu/home/onerror.gif) no-repeat 5px center;
+    position: absolute;
+}
+
+.mod-Password-cons label.error.correct {
+    background: #fff url(/public/images/tooxiu/home/oncorrect.gif) no-repeat 5px center;
+}
+
+.dialog-guide-cons {
+    height: 640px;
+    background: url('/public/images/tooxiu/guide/my-diction-guide.png') no-repeat;
+}
+
+/*弹窗end*/
+
+/*个人中心弹窗*/
+.help-layer {
+    max-width: 1300px;
+    min-height: 600px;
+    margin: 10px auto;
+    padding: 0 20px;
+}
+
+.help-layer .c-ion {
+    margin: 7px auto;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: block;
+    background: url('/public/images/tooxiu/userCenter/userCenter_icon.png') no-repeat;
+    position: relative;
+}
+
+/*.subscribe-icon-nav .c-ion {
+    background-position: -42px -181px;
+}
+.favorites-icon-nav .c-ion {
+    background-position: -83px -181px;
+}
+.history-icon-nav .c-ion {
+    background-position: -124px -181px;
+}
+.s-history-icon-nav .c-ion {
+    background-position: -165px -181px;
+}
+.down-icon-nav .c-ion {
+    background-position: -206px -181px;
+}
+.order-icon-nav .c-ion {
+    background-position: -247px -181px;
+}
+.message-icon-nav .c-ion {
+    background-position: -288px -180px;
+}
+.accounts-icon-nav .c-ion {
+    background-position: -329px -180px;
+}
+.service-icon-nav .c-ion {
+    background-position: -370px -180px;
+}*/
+.help-list-item {
+    width: 100%;
+    height: 80px;
+    padding: 20px 0;
+    border-bottom: 1px dotted #000;
+}
+
+.list-item-last {
+    border: none;
+}
+
+.list-item-single {
+    width: 50%;
+    float: left;
+}
+
+.list-item-single a {
+    width: 80px;
+    height: 80px;
+    float: left;
+    background-color: #000;
+    color: #fff;
+    margin-right: 13px;
+    text-align: center;
+}
+
+.list-item-single-info {
+    width: 210px;
+    float: left;
+}
+
+.list-item-single-info h3 {
+    font: bold 14px '宋体';
+    line-height: 24px;
+}
+
+.list-item-single-info p {
+    font: 12px '宋体';
+    line-height: 24px;
+}
+
+.list-item-single-last {
+    height: 80px;
+    background: url('/public/images/tooxiu/userCenter/layer-bottom.png') no-repeat;
+}
+
+.cs-mobile-verification {
+    padding: 20px;
+}
+
+.cs-mobile-verification em {
+    float: left;
+    width: 80px;
+    height: 65px;
+    display: block;
+    margin: 5px 20px;
+    background: url('/public/images/tooxiu/userCenter/try-computer.png') no-repeat;
+}
+
+.cs-top {
+    width: 100%;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cs-text {
+    width: 320px;
+    float: left;
+}
+
+.cs-text p {
+    font: 18px '微软雅黑';
+    color: #333;
+    line-height: 36px;
+}
+
+.cs-text p span,
+.cs-text b {
+    color: #e80000;
+    font: 14px/36px "Microsoft Yahei";
+}
+
+.cs-text p span {
+    font-size: 18px;
+}
+
+.cs-button {
+    width: 120px;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    background: #333;
+    margin: 20px auto 0;
+}
+
+.closeBtnHide .layui-layer-btn1 {
+    display: none
+}
