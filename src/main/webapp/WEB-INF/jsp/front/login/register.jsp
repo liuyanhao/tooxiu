@@ -1,3 +1,10 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: liuxicai
+  Date: 2019/1/8 0008
+  Time: 22:08
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page import="java.util.Date" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
@@ -12,15 +19,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>图休皮草之家_服装设计_登录</title>
+    <title>图休皮草之家_时装秀_服装设计图_服装设计_法国时装秀_时装设计</title>
     <meta name="keywords" content="时装秀,时装发布会,服装设计,服装设计图,服装款式,时装杂志,米兰时装周,巴黎时装周,法国时装秀,时装图片" />
-    <meta name="description" content="图休皮草之家是一家规模化、专业、全面的大型服装设计资讯资源网站，发布全球时装秀、服装设计图、法国时装秀和米兰、伦敦、纽约和巴黎时装周等时装秀场的时装发布会图片。" />
+    <meta name="description" content="图休网是一家规模化、专业、全面的大型服装设计资讯资源网站，发布全球时装秀、服装设计图、法国时装秀和米兰、伦敦、纽约和巴黎时装周等时装秀场的时装发布会图片。" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="renderer" content="webkit">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="/public/release/style/base.css?v=<%new Date().getTime()%>">
+    <link rel="icon" href="/public/images/tooxiu/home/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="/public/release/style/base.css?v=12ba160b4b">
     <link rel="stylesheet" type="text/css" href="/public/release/style/tooxiu/public.css?v=5d7193ea4d">
     <link rel="stylesheet" type="text/css" href="/public/release/style/tooxiu/index.css?v=10f799b76c">
     <link rel="stylesheet" type="text/css" href="/public/release/style/tooxiu/gallery.css?v=8ae4290e6f">
@@ -36,23 +43,23 @@
     <![endif]-->
     <script src="/public/release/js/lib/jquery/jquery-1.11.3.min.js"></script>
     <!--同步sso登录 -->
-    <script src="https://sso.diexun.com/login/syslogin/islogin/0"></script>	<script src="/static/front/js/union.core.js"></script>
+    <script src="https://sso.tooxiu.com/login/syslogin/islogin/0"></script>	<script src="/static/front/js/union.core.js"></script>
     <script>
         var is_login = "0";
         var username = "";
         var company_name = "";
         var user_id = "";
-        window.sessionStorage.favorites = "/front/favoritesAdd.do"; //收藏
+        window.sessionStorage.favorites = "/Favorites-add.html"; //收藏 fav_id/861/type/1.html
         window.data_search = false;
         var showLatest = '';
         var getLatestUrl = '';
         var userType = '';
-        window.sessionStorage.backUrl = 'czo5NToiaHR0cDovL3d3dy5zeHhsLmNvbS9pbmRleC5waHAvU3R5bGVHYWxsZXJ5L3RoZW1lRGV0YWlsL2NoYW5uZWwvMjA4NS90aWQvMTQzNzE5NC5odG1sP2Y9aG9tZXBhZ2UiOw=='
+        window.sessionStorage.backUrl = 'czo1MToiaHR0cDovL3d3dy5zeHhsLmNvbS9pbmRleC5waHAvUHVibGljLXJlZ2lzdGVyLmh0bWw/Ijs='
         window.sessionStorage.staticUrl = '/public';
         window.sessionStorage.tryStatus = 1;
         window.sessionStorage.isTry = 0;
         window.data_search = false;
-        var weixin_sdk = {"APP_KEY":"wxf48f3ba14ae4c673","CALLBACK":"http:\/\/new.tooxiu.com\/Public\/oAuthCallback\/type\/weixin?backurl=czo5NToiaHR0cDovL3d3dy5zeHhsLmNvbS9pbmRleC5waHAvU3R5bGVHYWxsZXJ5L3RoZW1lRGV0YWlsL2NoYW5uZWwvMjA4NS90aWQvMTQzNzE5NC5odG1sP2Y9aG9tZXBhZ2UiOw==","CSS_HREF":"https:\/\/wechat.tooxiu.com\/public\/dev\/style\/tooxiu\/wxLogin.css"};
+        var weixin_sdk = {"APP_KEY":"wxf48f3ba14ae4c673","CALLBACK":"http:\/\/new.tooxiu.com\/Public\/oAuthCallback\/type\/weixin?backurl=","CSS_HREF":"https:\/\/wechat.tooxiu.com\/public\/dev\/style\/tooxiu\/wxLogin.css"};
     </script>
     <script>
         window.DX_CONST === undefined && (window.DX_CONST={});
@@ -70,7 +77,7 @@
         window.DX_CONST._styleNode.id = 'setCSSheight'; //创建样式元素
         window.DX_CONST._styleNode.type = "text/css";//IE7 8 需要说明样式标签类型
         window.DX_CONST._clientWidth = __getWinWidth();//获取屏幕宽度
-        window.DX_CONST._systemTime = 1546755559;//服务器时间戳
+        window.DX_CONST._systemTime = 1546799093;//服务器时间戳
         // js添加图片列表高度样式
         autoHeightList();
         // type 是窗口变动传来的
@@ -146,12 +153,7 @@
     </style>
 </head>
 <body>
-<!-- <div class="top-tip">
-     <div class="wrap">
-         <i class="icon icon-warn-orange"></i>
-         <span>尊敬的用户：图休皮草之家2019春节放假时间为1月23日-2月3日，春节假期图休皮草之家将保证正常开放和您的使用。如需帮助请在线留言，2月4日上班小蝶将第一时间与您联系；若有紧急需要请联系（15888727569）；感谢您的支持，祝您春节愉快！ <a href="javascript:;" onClick="$('body>.top-tip').remove();" class="close" title="关闭"> [关闭]</a></span>
-     </div>
- </div> -->
+
 <header id="header" class="nsc-header">
     <div class="js-mk-fixed" id="js-mk-fixed" >
         <div class="ns-header" >
@@ -160,18 +162,18 @@
             <ul class="nav fn-clear">
                 <li class="cur ">
                     <div class="inner">
-                        <a title="女装" href="<%=basePath%>front/Women" >女装</a>
+                        <a title="女装" href="/Women" >女装</a>
                     </div>
                     <em>/</em>
                 </li><li class=" ">
                 <div class="inner">
-                    <a title="男装" href="<%=basePath%>front/Men" >男装</a>
+                    <a title="男装" href="/Men" >男装</a>
                 </div>
                 <em>/</em>
             </li>
-            <li class=" sel">
+                <li class=" sel">
                 <div class="inner">
-                    <a title="牛仔" href="<%=basePath%>front/Cowboy" >牛仔<i class="in-block ns-icon ns-icon-arrow-down"></i></a>
+                    <a title="牛仔" href="/Cowboy" >牛仔<i class="in-block ns-icon ns-icon-arrow-down"></i></a>
                     <ul class="nav-cons">
                         <li  >
                             <a href="/Cowboy-index-channel-35340-extid-32940.html"  title="女装">女装</a>
@@ -185,20 +187,21 @@
             </li>
                 <li class=" sel">
                 <div class="inner">
-                    <a title="毛织" href="<%=basePath%>front/Woolen" >毛织<i class="in-block ns-icon ns-icon-arrow-down"></i></a>
+                    <a title="毛织" href="/Woolen" >毛织<i class="in-block ns-icon ns-icon-arrow-down"></i></a>
                     <ul class="nav-cons">
                         <li  >
-                            <a href="<%=basePath%>front/Woolen-index-channel-35342-extid-32940.html"  title="女装">女装</a>
+                            <a href="/Woolen-index-channel-35342-extid-32940.html"  title="女装">女装</a>
                         </li>
                         <li  >
-                            <a href="<%=basePath%>front/Woolen-index-channel-35342-extid-32939.html" title="男装">男装</a>
+                            <a href="/Woolen-index-channel-35342-extid-32939.html" title="男装">男装</a>
                         </li>
+
                     </ul>
                 </div>
                 <em>/</em>
             </li><li class=" sel">
                 <div class="inner">
-                    <a title="裤子" href="<%=basePath%>front/Pants" >裤子<i class="in-block ns-icon ns-icon-arrow-down"></i></a>
+                    <a title="裤子" href="/Pants" >裤子<i class="in-block ns-icon ns-icon-arrow-down"></i></a>
                     <ul class="nav-cons">
                         <li  >
                             <a href="/Pants-index-channel-35341-extid-32940.html"  title="女装">女装</a>
@@ -206,45 +209,41 @@
                         <li  >
                             <a href="/Pants-index-channel-35341-extid-32939.html" title="男装">男装</a>
                         </li>
+
                     </ul>
                 </div>
                 <em>/</em>
             </li>
-
-                <li class="">
-                    <div class="inner">
-                        <a href="/IndustryAlliance-index.html">产业联盟</a>
-                    </div>
-                    <em>/</em>
-                </li>
-                <li >
-                    <div class="inner">
-                        <a href="/Kaleidoscope-brand.html">时尚万花筒</a>
-                    </div>
-                    <em>/</em>
-                </li>
-                <li >
-                    <div class="inner">
-                        <a href="http://fashion.tooxiu.com/" target="_blank">时尚圈</a>
-                    </div>
-                    <em>/</em>
-                </li>
-            </ul>
+            <li class="">
+                <div class="inner">
+                    <a href="/IndustryAlliance-index.html">产业联盟</a>
+                </div>
+                <em>/</em>
+            </li>
+            <li >
+                <div class="inner">
+                    <a href="/Kaleidoscope-brand.html">时尚万花筒</a>
+                </div>
+                <em>/</em>
+            </li>
+            <li >
+                <div class="inner">
+                    <a href="http://fashion.tooxiu.com/" target="_blank">时尚圈</a>
+                </div>
+                <em>/</em>
+            </li>
+        </ul>
             <div class="right-box">
                 <div class="user-op">
-                    <div class="btn register-btn" title="注册" onclick="window.location.href='<%=basePath%>%>front/register.do'">
+                    <div class="btn register-btn" title="注册" onclick="window.location.href='<%=basePath%>front/register.do'">
                         <span class="ns-icon ns-icon-register in-block"></span>
                         <p>注册</p>
                     </div>
-                    <div class="btn user-btn" title="登录" onclick="window.location.href='<%=basePath%>%>front/login.do?backurl=czo5NToiaHR0cDovL3d3dy5zeHhsLmNvbS9pbmRleC5waHAvU3R5bGVHYWxsZXJ5L3RoZW1lRGV0YWlsL2NoYW5uZWwvMjA4NS90aWQvMTQzNzE5NC5odG1sP2Y9aG9tZXBhZ2UiOw=='">
+                    <div class="btn user-btn" title="登录" onclick="window.location.href='<%=basePath%>front/to_login.do?backurl=czo1MToiaHR0cDovL3d3dy5zeHhsLmNvbS9pbmRleC5waHAvUHVibGljLXJlZ2lzdGVyLmh0bWw/Ijs='">
                         <span class="ns-icon ns-icon-user in-block"></span>
                         <p>登录</p>
                     </div>
                     <div class="btn search-btn" title="搜索">
-                    <!-- <a class="box-t" style="display: block;" href="/SearchPicture-index.html" target="_blank" class="toSearch">
-                        <span class="ns-icon ns-icon-search in-block"></span>
-                        <p>搜索</p>
-                    </a> -->
                     <div class="box-t">
                         <span class="ns-icon ns-icon-search in-block"></span>
                         <p>搜索</p>
@@ -319,7 +318,7 @@
                             <a href="/DesignAnalysis-index-cid-7-subcolumn-131343-channel-2085.html">款式分析</a><a href="/DesignAnalysis-index-cid-7-subcolumn-131010-channel-2085.html">色彩分析</a><a href="/DesignAnalysis-index-cid-7-subcolumn-131346-channel-2085.html">材料分析</a><a href="/DesignAnalysis-index-cid-7-subcolumn-131015-channel-2085.html">工艺分析</a><a href="/DesignAnalysis-index-cid-7-subcolumn-128748-channel-2085.html">图案分析</a><a href="/DesignAnalysis-index-cid-7-subcolumn-131347-channel-2085.html">细节分析</a>                    </li>            </ul>        </div>
                 </div>
                 <ul>
-                    <li class="sel" style="width:14.2757142857%;">
+                    <li class="sel" style="width:14.275714285714%;">
                         <a class="sub-nav-child" title="趋势预测">趋势预测<i class="ns-icon ns-icon-arrow-dw in-block"></i></a>
                         <em></em>
                         <ul class="nav-cons">
@@ -336,7 +335,7 @@
                         </li><li>
                             <a href="/PlanningTheme-index-cid-1-channel-2085.html" title="企划主题">企划主题</a>
                         </li>            </ul>
-                    </li><li class="sel" style="width:14.2757142857%;">
+                    </li><li class="sel" style="width:14.275714285714%;">
                     <a class="sub-nav-child" title="市场情报">市场情报<i class="ns-icon ns-icon-arrow-dw in-block"></i></a>
                     <em></em>
                     <ul class="nav-cons">
@@ -355,7 +354,7 @@
                     </li><li>
                         <a href="/DesignerBrand-index-cid-2-channel-2085.html" title="设计师品牌">设计师品牌</a>
                     </li>            </ul>
-                </li><li class="sel" style="width:14.2757142857%;">
+                </li><li class="sel" style="width:14.275714285714%;">
                     <a class="sub-nav-child" title="时装发布">时装发布<i class="ns-icon ns-icon-arrow-dw in-block"></i></a>
                     <em></em>
                     <ul class="nav-cons">
@@ -364,7 +363,7 @@
                         </li><li>
                         <a href="/RunwayTrend-index-cid-3-channel-2085.html" title="T台趋势">T台趋势</a>
                     </li>            </ul>
-                </li><li class="sel" style="width:14.2757142857%;">
+                </li><li class="sel" style="width:14.275714285714%;">
                     <a class="sub-nav-child" title="潮流直播">潮流直播<i class="ns-icon ns-icon-arrow-dw in-block"></i></a>
                     <em></em>
                     <ul class="nav-cons">
@@ -375,7 +374,7 @@
                     </li><li>
                         <a href="/StarNews-index-cid-4-channel-2085.html" title="明星同款">明星同款</a>
                     </li>            </ul>
-                </li><li class="sel" style="width:14.2757142857%;">
+                </li><li class="sel" style="width:14.275714285714%;">
                     <a class="sub-nav-child" title="书刊杂志">书刊杂志<i class="ns-icon ns-icon-arrow-dw in-block"></i></a>
                     <em></em>
                     <ul class="nav-cons">
@@ -386,7 +385,7 @@
                     </li><li>
                         <a href="/PatternBook-index-cid-5-channel-2085.html" title="图案书籍">图案书籍</a>
                     </li>            </ul>
-                </li><li class="sel" style="width:14.2757142857%;">
+                </li><li class="sel" style="width:14.275714285714%;">
                     <a class="sub-nav-child" title="图案/面辅料">图案/面辅料<i class="ns-icon ns-icon-arrow-dw in-block"></i></a>
                     <em></em>
                     <ul class="nav-cons">
@@ -401,197 +400,176 @@
                     </li><li>
                         <a href="/CowboyAccessories-index-cid-6-channel-2085.html" title="牛仔辅料">牛仔辅料</a>
                     </li>            </ul>
-                </li><li class="sel" style="width:14.2757142857%;">
+                </li><li class="sel" style="width:14.275714285714%;">
                     <a class="sub-nav-child" title="设计分析">设计分析<i class="ns-icon ns-icon-arrow-dw in-block"></i></a>
                     <em></em>
                     <ul class="nav-cons">
                         <li>
                             <a href="/DesignAnalysis-index-cid-7-subcolumn-131343-channel-2085.html" title="款式分析">款式分析</a>
-                        </li>
-                        <li>
-                             <a href="/DesignAnalysis-index-cid-7-subcolumn-131010-channel-2085.html" title="色彩分析">色彩分析</a>
-                        </li>
-                        <li>
-                            <a href="/DesignAnalysis-index-cid-7-subcolumn-131346-channel-2085.html" title="材料分析">材料分析</a>
-                        </li>
-                        <li>
-                         <a href="/DesignAnalysis-index-cid-7-subcolumn-131015-channel-2085.html" title="工艺分析">工艺分析</a>
-                        </li>
-                        <li>
-                         <a href="/DesignAnalysis-index-cid-7-subcolumn-128748-channel-2085.html" title="图案分析">图案分析</a>
-                        </li>
-                        <li>
-                            <a href="/DesignAnalysis-index-cid-7-subcolumn-131347-channel-2085.html" title="细节分析">细节分析</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            </div>
-        </div>
+                        </li><li>
+                        <a href="/DesignAnalysis-index-cid-7-subcolumn-131010-channel-2085.html" title="色彩分析">色彩分析</a>
+                    </li><li>
+                        <a href="/DesignAnalysis-index-cid-7-subcolumn-131346-channel-2085.html" title="材料分析">材料分析</a>
+                    </li><li>
+                        <a href="/DesignAnalysis-index-cid-7-subcolumn-131015-channel-2085.html" title="工艺分析">工艺分析</a>
+                    </li><li>
+                        <a href="/DesignAnalysis-index-cid-7-subcolumn-128748-channel-2085.html" title="图案分析">图案分析</a>
+                    </li><li>
+                        <a href="/DesignAnalysis-index-cid-7-subcolumn-131347-channel-2085.html" title="细节分析">细节分析</a>
+                    </li>            </ul>
+                </li>    </ul>
+            </div>		</div>
     </div>
 </header>
 
-
 <script type="text/javascript">
-    window.sessionStorage.Target = "/public/release/js/tooxiu/userCenter/,noLogin";
+    window.sessionStorage.Target = "/public/release/js/tooxiu/register/,register";
+    window.sessionStorage.checkUsername = "/front/checkUsername.do";
+    window.sessionStorage.checkMobile = "/front/checkUsername.do";
+    window.sessionStorage.imgCode = "/front/getVerify.do";
+    window.sessionStorage.checkImgCode = "/front/chekCode.do";
+    window.sessionStorage.getSms = "/front/sendMobileCode2.do";
+    window.sessionStorage.checkSms = "/front/verifyMobileCode.do";
 </script>
-<section class="Login-content" id="login">
-    <div class="content-nav">
-        <div id="content-nav-btn">
-            <span id="nav-left"></span>
-            <div class="Mydiction-dis Mydiction-icon-nav ">
-                <a href="/UserCenter.html" draggable="false">
-                    <span class="c-ion"></span> 我的Diction
-                </a>
-                <span class="nav-Triangle"></span>
-                <i></i>
+<!-- 20180320需求 默认为企业帐号 -->
+<section class="register" id="register">
+    <div class="register-wrap">
+        <div class="register-main">
+            <div class="register-tag">
+                <ul id="sel-tag">
+                    <li  data-name="designer-register">设计师账号</li>
+                    <li class="cur" data-name="company-register">企业账号</li>
+                </ul>
             </div>
-            <ul class="fn-clear" style="left:124.4px;width:1300px">
-                <li class="conter-item  subscribe-icon-nav" data-isdrag="0" >
-                    <a href="<%=basePath%>userCenter/subscribe.do" draggable="false">
-                        <span class="c-ion"></span> 个性订阅<i class="lock"></i></a>
-                    <span class="nav-Triangle"></span>
-                    <span data-id="1" class=" " data-type="subscribe-icon-nav"><em></em></span>
-                    <span class="nav-Triangle"></span>
-                    <i></i>
-                </li>
-                <li class="conter-item  favorites-icon-nav"  >
-                <a href="<%=basePath%>userCenter/collection.do" draggable="false">
-                    <span class="c-ion"></span> 我的收藏</a>
-                <span class="nav-Triangle"></span>
-                <span data-id="2" class="add-MyDiction " data-type="favorites-icon-nav"><em></em></span>
-                <span class="nav-Triangle"></span>
-                <i></i>
-                <!--<p class="dashed-P"><em></em></p>-->
-               </li>
-               <li class="conter-item  history-icon-nav"  >
-                <a href="/UserCenter-footprint.html" draggable="false"><span class="c-ion"></span>浏览足迹</a>
-                <span class="nav-Triangle"></span>
-                <span data-id="3" class="add-MyDiction " data-type="history-icon-nav"><em></em></span>
-                <span class="nav-Triangle"></span>
-                <i></i>
-                <!--<p class="dashed-P"><em></em></p>-->
-               </li>
-               <li class="conter-item  s-history-icon-nav"  >
-                <a href="/UserCenter-searchHistory.html" draggable="false">
-                    <span class="c-ion"></span>搜索历史</a>
-                <span class="nav-Triangle"></span>
-                <span data-id="4" class="add-MyDiction " data-type="s-history-icon-nav"><em></em></span>
-                <span class="nav-Triangle"></span>
-                <i></i>
-                <!--<p class="dashed-P"><em></em></p>-->
-               </li>
-                <li class="conter-item  down-icon-nav"  >
-                <a href="/UserCenter-downloadRecord.html" draggable="false"><span class="c-ion"></span>下载记录</a>
-                <span class="nav-Triangle"></span>
-                <span data-id="5" class="add-MyDiction " data-type="down-icon-nav"><em></em></span>
-                <span class="nav-Triangle"></span>
-                <i></i>
-                <!--<p class="dashed-P"><em></em></p>-->
-                </li>
-                <li class="conter-item  order-icon-nav"  >
-                <a href="/UserCenter-orderCenter.html" draggable="false"><span class="c-ion"></span> 订单中心</a>
-                <span class="nav-Triangle"></span>
-                <span data-id="6" class="add-MyDiction " data-type="order-icon-nav"><em></em></span>
-                <span class="nav-Triangle"></span>
-                <i></i>
-                <!--<p class="dashed-P"><em></em></p>-->
-                </li>
-                <li class="conter-item  message-icon-nav"  >
-                <a href="/UserCenter-stationMessage.html" draggable="false"><span class="c-ion"></span> 站内消息</a>
-                <span class="nav-Triangle"></span>
-                <span data-id="7" class="add-MyDiction " data-type="message-icon-nav"><em></em></span>
-                <span class="nav-Triangle"></span>
-                <i></i>
-                <!--<p class="dashed-P"><em></em></p>-->
-                </li><li class="conter-item  accounts-icon-nav"  >
-                <a href="/UserCenter-accountManage.html" draggable="false"><span class="c-ion"></span> 账户管理</a>
-                <span class="nav-Triangle"></span>
-                <span data-id="8" class="add-MyDiction " data-type="accounts-icon-nav"><em></em></span>
-                <span class="nav-Triangle"></span>
-                <i></i>
-                <!--<p class="dashed-P"><em></em></p>-->
-               </li>
-                <li class="conter-item  onTrial-icon-nav"  >
-                <a href="/UserCenter-applyTryout.html" draggable="false"><span class="c-ion"></span>申请试用</a>
-                <span class="nav-Triangle"></span>
-                <span data-id="9" class=" " data-type="onTrial-icon-nav"><em></em></span>
-                <span class="nav-Triangle"></span>
-                <i></i>
-                <!--<p class="dashed-P"><em></em></p>-->
-                </li>
-                <li class="conter-item  service-icon-nav"  >
-                <a href="javascript:;" draggable="false"><span class="c-ion"></span> 客户服务</a>
-                <span class="nav-Triangle"></span>
-                <span data-id="10" class="add-MyDiction " data-type="service-icon-nav"><em></em></span>
-                <span class="nav-Triangle"></span>
-                <i></i>
-                <!--<p class="dashed-P"><em></em></p>-->
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <!-- 登录 -->
-    <div class="login-form wrap">
-        <div class="login-tit"><a href="<%=basePath%>front/register.do">免费注册新账号</a><span>会员登录</span></div>
-        <div class="login-layer">
-            <div class="top">
-            </div>
-            <div class="main fn-clear">
-                <form id="loginForm" name="loginForm" method="post" action="<%=basePath%>front/login.do">
-                    <input type="hidden" name="cpu_info" value="" />
-                    <input type="hidden" name="net_info" value="" />
-                    <input type="hidden" name="hd_info" value="" />
-                    <input type="hidden" name="pc_name" value="" />
-                    <ul class="notLogin-left">
-                        <li>
-                            <div class="tit-l">图休通行证：</div>
-                            <div class="small-search">
-                                <input class="text-input js-text-input account" id="username" type="text" name="username" value="" placeholder="请输入图休通行证 / 手机 / 邮箱">
-                            </div>
-                        </li>
-                        <li>
-                            <div class="tit-l">登录密码：</div>
-                            <div class="small-search">
-                                <input class="text-input js-text-input password" id="password" type="password" name="password" placeholder="请输入登录密码">
-                            </div>
-                        </li>
-                        <li class="setup notpadd">
-                            <div class="tit-l vbh">是否记住密码</div>
-                            <div class="small-search">
-                                <a href="<%=basePath%>front/findPassword.do">忘记密码?</a>
-                                <span class='checkbox '><span class='' ><i></i></span>记住我的账号</span>
-                                <input type="hidden" id="remember" name="remember" value="" />
-                            </div>
-                        </li>
-                        <li class="notpadd">
-                            <div class="tit-l vbh">登录</div>
-                            <input class="btn-input-big" id="loginSubmit" type="button" value="登录">
-                            <input type="hidden" name="backurl" value="czo5NToiaHR0cDovL3d3dy5zeHhsLmNvbS9pbmRleC5waHAvU3R5bGVHYWxsZXJ5L3RoZW1lRGV0YWlsL2NoYW5uZWwvMjA4NS90aWQvMTQzNzE5NC5odG1sP2Y9aG9tZXBhZ2UiOw==" />
-                        </li>
-                    </ul>
-                </form>
-                <div class="notLogin-right">
-                    <!-- <img src="/public/images/tooxiu/userCenter/login-code.png" width="298" height="158" onerror="imgError(this)">
-                    <div id="wx-code"></div>
-                    <span class="code-ii"></span>
-                    <p><a href="javascript:void(0);" id="use-help">使用帮助</a><em>|</em><a id="downClient">下载客户端</a></p> -->
-                    <div class="computer-bg-fixed"></div>
-                    <p class="computer-bg-p">我们建议您立即<a id="downClient">下载客户端</a><br/>网站登录，方便、快捷！</p>
+            <div class="register-tag-con">
+                <div class="designer-register" style="display: none;">
+                    <form id="designer-myForm" name="designer-myForm" method="post">
+                        <table class="register-form">
+                            <tr>
+                                <td width="320" class="hd"><span class="red">*</span>手机号码：</td>
+                                <td width="620">
+                                    <div class="big-input"><input id="mobile" name="mobile" class="text-input" type="text" required value=""></div>
+                                    <p class="tip">请输入有效的手机号码</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="hd">图片验证码：</td>
+                                <td>
+                                    <div class="big-input bn">
+                                        <input id="imgCode" name="imgCode" class="text-input w210" type="text" required value="">
+                                        <div class="w88 code" style="cursor: pointer"><img width="88px" height="35px" src="<%=basePath%>front/getVerify.do"/></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="hd">短信验证码：</td>
+                                <td>
+                                    <div class="big-input bn">
+                                        <input id="smsCode" name="smsCode" class="text-input w210" type="text" required value="">
+                                        <div class="w88 btn">发送验证码</div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="hd"><span class="red">*</span>登录密码：</td>
+                                <td>
+                                    <div class="big-input"><input value="" id="derPassword" name="derPassword" class="text-input" type="password"></div>
+                                    <p class="tip">由6位以上字母、数字或特殊字符组成</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="hd"><span class="red">*</span>真实姓名：</td>
+                                <td>
+                                    <div class="big-input">
+                                        <input id="realName" name="realName" class="text-input" type="text" required value="">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="hd"><span class="red">*</span>职位/称呼：</td>
+                                <td>
+                                    <div class="big-input">
+                                        <input id="position" name="position" class="text-input" type="text" required value="">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="hd"><span class="red">*</span>所在公司：</td>
+                                <td>
+                                    <div class="big-input"><input value="" id="company_referred" name="company_referred" class="text-input" type="text"></div>
+                                    <p class="tip">请输入公司/工作室/单位/学校名</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="hd">性别：</td>
+                                <td>
+                                    <input class="in-block" type="radio" id="sex1" value="1" name="gender" checked /><label class="in-block" for="sex1">男</label>
+                                    <input class="in-block ml10" type="radio" id="sex2" value="2" name="gender"  /><label class="in-block" for="sex2">女</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <p class="choose-wrap"><label><input id="designerClause" name="designerClause" class="choose-input" type="checkbox" >我已阅读并接受<a class="under-line blue" href="http://www.tooxiu.com/Index/show/act/clause.html" target="_blank">服务条款</a>​</label></p>
+                                    <input type="hidden" name="type" value="2" />
+                                    <input class="btn-input-big fn-mgt10" type="submit" id="designerSubmitRegister" value="免 费 注 册">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    <p class="top goto-login"><a href="<%=basePath%>front/to_login.do">已有帐号，立即登录 <span class="fn-song">&gt;</span></a></p>
+                    <p class="nest_tip">图休小贴士：设计师账号可绑定到企业账号分享企业VIP套餐哦~</p>
+                </div>
+                <div class="company-register" >
+                    <form id="myForm" name="myForm" method="post">
+                        <input type="hidden" name="cpu_info" value="" />
+                        <input type="hidden" name="net_info" value="" />
+                        <input type="hidden" name="hd_info" value="" />
+                        <input type="hidden" name="pc_name" value="" />
+                        <table class="register-form">
+                            <!-- <tr>
+                                <td width="940" colspan="2">
+                                    <div class="ms-Followed">
+                                        <p>您是否需要当地区域图休网销售顾问联系跟进服务？（该项服务免费）</p>
+                                        <label ><input type="radio" name="is_sales" value="1">暂不需要</label>
+                                        <label ><input type="radio" name="is_sales" value="0">我需要</label>
+                                    </div>
+                                </td>
+                            </tr> -->
+                            <tr>
+                                <td width="320" class="hd">图休通行证：</td>
+                                <td width="620">
+                                    <div class="big-input"><input value="" id="username" name="username" minlength="2" class="text-input" type="text" required value=""></div>
+                                    <p class="tip">5-20个字母和数字组成，首字符必须为字母</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="hd">新密码：</td>
+                                <td>
+                                    <div class="big-input"><input value="" id="password" name="password" class="text-input" type="password"></div>
+                                    <p class="password-line"><span class="one"></span><span class="two"></span><span class="three"></span></p>
+                                    <p class="tip">由6位以上字母、数字或特殊字符组成</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="hd">确认新密码：</td>
+                                <td>
+                                    <div class="big-input"><input value="" id="repassword" name="repassword" class="text-input" type="password"></div>
+                                    <p class="tip">请再次确认您输入的密码</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <p class="choose-wrap"><label><input id="clause" name="clause" class="choose-input" type="checkbox" name="">我已阅读并接受<a class="under-line blue" href="http://www.tooxiu.com/Index/show/act/clause.html" target="_blank">服务条款</a>​</label></p>
+                                    <input class="btn-input-big fn-mgt10" type="submit" id="submitRegister" value="免 费 注 册">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    <p class="top goto-login"><a href="/Public-login.html">已有帐号，立即登录 <span class="fn-song">&gt;</span></a></p>
                 </div>
             </div>
-            <!-- <div class="bottom">
-                <p>
-                    支持第三方账号登录：
-                    <a class="ext-login ext-qq" title="QQ" href="/Public-oAuthLogin-type-qq.html"></a>
-                    <a class="ext-login ext-sina" title="新浪" href="/Public-oAuthLogin-type-sina.html"></a>
-                    <a class="ext-login ext-wx" title="微信" href="/Public-oAuthLogin-type-weixin.html"></a>
-                    <a class="ext-login ext-bd" title="百度" href="#"></a>
-                    <a class="ext-login ext-tao" title="淘宝" href="#"></a>
-                    <a class="ext-login ext-pin" title="pinterest" href="#"></a>
-                </p>
-            </div> -->
         </div>
     </div>
 </section>
@@ -599,12 +577,11 @@
 <script>
     /* 获取电脑信息 */
     document.pcInfo.Cmd = 1;
-    document.loginForm.cpu_info.value = document.pcInfo.CpuNumber;
-    document.loginForm.net_info.value = document.pcInfo.NetNumber;
-    document.loginForm.hd_info.value = document.pcInfo.HdNumber;
-    document.loginForm.pc_name.value = document.pcInfo.PcName;
+    document.myForm.cpu_info.value = document.pcInfo.CpuNumber;
+    document.myForm.net_info.value = document.pcInfo.NetNumber;
+    document.myForm.hd_info.value = document.pcInfo.HdNumber;
+    document.myForm.pc_name.value = document.pcInfo.PcName;
 </script>
-
 <footer class="ns-footer" id="footer">
     <div class="ns-main-layout fn-clear">
         <div class="ns-f-top">
@@ -620,7 +597,7 @@
                         <a href="http://www.xiebaowang.com" target="_blank" title="图休鞋业">图休鞋业</a>
                     </div>
                     <div class="row">
-                        <a href="http://edu.diexun.com" target="_blank" title="图休教育">图休教育</a>
+                        <a href="http://edu.tooxiu.com" target="_blank" title="图休教育">图休教育</a>
                         <a href="http://bags.tooxiu.com" target="_blank" title="图休箱包">图休箱包</a>
                     </div>
                     <div class="row">
@@ -632,7 +609,7 @@
                 <dt>关于我们</dt>
                 <dd class="fn-clear">
                     <div class="row">
-                        <a target="_blank" href="http://www.tooxiu.com/index/show/act/introduction.html">关于颜豪</a>
+                        <a target="_blank" href="http://www.tooxiu.com/index/show/act/introduction.html">关于图休</a>
                     </div>
                     <div class="row">
                         <a target="_blank" href="http://www.tooxiu.com/index/show/act/patners.html">合作伙伴</a>
@@ -656,7 +633,7 @@
                         <a target="_blank" href="http://www.tooxiu.com/index/show/act/join.html">加入我们</a>
                     </div>
                     <div class="row">
-                        <a target="_blank" href="http://www.tooxiu.com/huodong/2015/0812/">颜豪团队</a>
+                        <a target="_blank" href="http://www.tooxiu.com/huodong/2015/0812/">图休团队</a>
                     </div>
                     <div class="row">
                         <a target="_blank" href="http://www.tooxiu.com/index/show/act/case.html">客户案例</a>
@@ -756,24 +733,18 @@
             <div class="link-in">
                 <a href="http://szcert.ebs.org.cn/53dc32e0-08c5-4bbb-93e5-a285d27a0749" rel="nofollow" target="_blank" class="ns-icon-gs"></a>
                 <a target="_blank" rel="nofollow" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030402000294" class="ns-icon-ga"></a>
-                <a target="_blank" rel="nofollow" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030402000294" class="in-block">京公网安备 XXXXX402000288号</a>
+                <a target="_blank" rel="nofollow" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030402000294" class="in-block">京公网安备 XXXX0402000298号</a>
                 <em>|</em>
-                <a href="http://www.miibeian.gov.cn" target="_blank" rel="nofollow" class="in-block">增值电信业务经营许可证：京ICP备XXXX8807号-2 </a>
+                <a href="http://www.miibeian.gov.cn" target="_blank" rel="nofollow" class="in-block">增值电信业务经营许可证：京ICP备XXXX8808号-2 </a>
                 <em>|</em>
-                <span class="in-block">颜豪(北京)科技有限公司©2018-2028</span>
+                <span class="in-block">颜豪(北京)科技有限公司©2005-2019</span>
             </div>
-            <div class="link-in">
-                <span class="in-block">本站所有图片都经过防伪处理，侵权必究！律师顾问：北京XXX律师事务所</span>
-            </div>
+            <div class="link-in"><span class="in-block">本站所有图片都经过防伪处理，侵权必究！律师顾问：北京XX律师事务所</span></div>
         </div>
     </div>
     <!-- <div class="nest_align">fasfas</div> -->
     <!--[if lte IE 9]>
-    <div class="browser">HI！~我们察觉到您的浏览器版本太低。为了获得更佳的浏览效果和体验，建议您升级或更换浏览器:<a target="_blank" title="谷歌浏览器" href="http://outdatedbrowser.com/cn" class="browser-item chrome"></a>
-        <a target="_blank" title="火狐浏览器" href="http://outdatedbrowser.com/cn" class="browser-item firefox"></a>
-        <a target="_blank" title="IE浏览器" href="http://outdatedbrowser.com/cn" class="browser-item ie"></a>
-        <a target="_blank" title="opera浏览器" href="http://outdatedbrowser.com/cn" class="browser-item opera"></a>
-    </div>
+    <div class="browser">HI！~我们察觉到您的浏览器版本太低。为了获得更佳的浏览效果和体验，建议您升级或更换浏览器:<a target="_blank" title="谷歌浏览器" href="http://outdatedbrowser.com/cn" class="browser-item chrome"></a><a target="_blank" title="火狐浏览器" href="http://outdatedbrowser.com/cn" class="browser-item firefox"></a><a target="_blank" title="IE浏览器" href="http://outdatedbrowser.com/cn" class="browser-item ie"></a><a target="_blank" title="opera浏览器" href="http://outdatedbrowser.com/cn" class="browser-item opera"></a></div>
     <![endif]-->
 </footer>
 <div class="ns-fix-register">
@@ -782,8 +753,7 @@
         <img src="/public/images/tooxiu/home/fix-register.png" alt="">
     </a>
 </div>
-<script type="text/javascript" data-main='/public/main.js?v=fd6792c4d9'
-        src="/public/release/js/lib/requirejs/2.1.20/require.js?v=6f11e56258" defer async="true"></script>
+<script type="text/javascript" data-main='/public/main.js?v=fd6792c4d9' src="/public/release/js/lib/requirejs/2.1.20/require.js?v=6f11e56258" defer async="true"></script>
 <script>
     var _hmt = _hmt || [];
     (function() {

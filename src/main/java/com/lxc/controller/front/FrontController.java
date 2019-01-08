@@ -104,7 +104,7 @@ public class FrontController  {
 
 
     /**
-     * 首页
+     * 登录
      * @return
      */
     @RequestMapping(value="/login")
@@ -128,12 +128,12 @@ public class FrontController  {
     }
 
     /**
-     * 用户中心
+     * 登录
      * @return
      */
-    @RequestMapping(value="/userCenter")
-    public ModelAndView userCenter(){
-        logBefore(logger, "用户中心");
+    @RequestMapping(value="/to_login")
+    public ModelAndView toLogin(){
+        logBefore(logger, "去登录页");
         ModelAndView mv = this.getModelAndView();
         Map<String,Object> map = new HashMap<String,Object>();
         PageData pd = new PageData();
@@ -147,17 +147,17 @@ public class FrontController  {
             map.put("result", result);
             logAfter(logger);
         }
-        mv.setViewName("front/user/UserCenter");
+        mv.setViewName("front/login/login");
         return mv;
     }
 
     /**
-     * 收藏
+     * 登录
      * @return
      */
-    @RequestMapping(value="/favorites-add")
-    public ModelAndView favoritesAdd(){
-        logBefore(logger, "收藏");
+    @RequestMapping(value="/findPassword")
+    public ModelAndView findPassword(){
+        logBefore(logger, "找回密码");
         ModelAndView mv = this.getModelAndView();
         Map<String,Object> map = new HashMap<String,Object>();
         PageData pd = new PageData();
@@ -171,9 +171,151 @@ public class FrontController  {
             map.put("result", result);
             logAfter(logger);
         }
-        mv.setViewName("front/favorites-add");
+        mv.setViewName("front/login/findPassword");
         return mv;
     }
+
+    /**
+     * 校验用户名 登录账号
+     * @return
+     */
+    @RequestMapping(value="/checkUsername")
+    @ResponseBody
+    public Object checkUsername(){
+        logBefore(logger, "校验用户名 登录账号");
+        Map<String,Object> map = new HashMap<String,Object>();
+        PageData pd = new PageData();
+        pd = this.getPageData();
+        String result = "00";
+        try{
+
+        }catch (Exception e){
+            logger.error(e.toString(), e);
+        }finally{
+            map.put("result", result);
+            logAfter(logger);
+        }
+        return AppUtil.returnObject(new PageData(), map);
+    }
+
+    /**
+     * 验证码
+     * @return
+     */
+    @RequestMapping(value="/getVerify")
+    @ResponseBody
+    public Object getVerify(){
+        logBefore(logger, "验证码");
+        Map<String,Object> map = new HashMap<String,Object>();
+        PageData pd = new PageData();
+        pd = this.getPageData();
+        String result = "00";
+        try{
+
+        }catch (Exception e){
+            logger.error(e.toString(), e);
+        }finally{
+            map.put("result", result);
+            logAfter(logger);
+        }
+        return AppUtil.returnObject(new PageData(), map);
+    }
+
+    /**
+     * 校验验证码
+     * @return
+     */
+    @RequestMapping(value="/chekCode")
+    @ResponseBody
+    public Object chekCode(){
+        logBefore(logger, "校验验证码");
+        Map<String,Object> map = new HashMap<String,Object>();
+        PageData pd = new PageData();
+        pd = this.getPageData();
+        String result = "00";
+        try{
+
+        }catch (Exception e){
+            logger.error(e.toString(), e);
+        }finally{
+            map.put("result", result);
+            logAfter(logger);
+        }
+        return AppUtil.returnObject(new PageData(), map);
+    }
+
+    /**
+     * 校验手机验证码
+     * @return
+     */
+    @RequestMapping(value="/verifyMobileCode")
+    @ResponseBody
+    public Object verifyMobileCode(){
+        logBefore(logger, "校验手机验证码");
+        Map<String,Object> map = new HashMap<String,Object>();
+        PageData pd = new PageData();
+        pd = this.getPageData();
+        String result = "00";
+        try{
+
+        }catch (Exception e){
+            logger.error(e.toString(), e);
+        }finally{
+            map.put("result", result);
+            logAfter(logger);
+        }
+        return AppUtil.returnObject(new PageData(), map);
+    }
+
+
+    /**
+     * 发送手机验证码
+     * @return
+     */
+    @RequestMapping(value="/sendMobileCode2")
+    @ResponseBody
+    public Object sendMobileCode2(){
+        logBefore(logger, "发送手机验证码");
+        Map<String,Object> map = new HashMap<String,Object>();
+        PageData pd = new PageData();
+        pd = this.getPageData();
+        String result = "00";
+        try{
+
+        }catch (Exception e){
+            logger.error(e.toString(), e);
+        }finally{
+            map.put("result", result);
+            logAfter(logger);
+        }
+        return AppUtil.returnObject(new PageData(), map);
+    }
+
+    /**
+     * 注册
+     * @return
+     */
+    @RequestMapping(value="/register")
+    public ModelAndView register(){
+        logBefore(logger, "会员注册");
+        ModelAndView mv = this.getModelAndView();
+        Map<String,Object> map = new HashMap<String,Object>();
+        PageData pd = new PageData();
+        pd = this.getPageData();
+        String result = "00";
+        try{
+
+        }catch (Exception e){
+
+        }finally {
+            map.put("result", result);
+            logAfter(logger);
+        }
+        mv.setViewName("front/login/register");
+        return mv;
+    }
+
+
 
     /**
      * 退出
@@ -199,6 +341,10 @@ public class FrontController  {
         return mv;
     }
 
+    /**
+     * 根据用户名获取会员信息
+     * @return
+     */
     @RequestMapping(value="/getAppuserByUm")
     @ResponseBody
     public Object getAppuserByUsernmae(){

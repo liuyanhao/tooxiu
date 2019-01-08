@@ -85,9 +85,10 @@ public class UserCenterController extends BaseController{
      */
     @RequestMapping(value="/accountManage")
     @ResponseBody
-    public Object accountManage(){
+    public ModelAndView accountManage(){
         logBefore(logger, "帐户管理");
         Map<String,Object> map = new HashMap<String,Object>();
+        ModelAndView mv = this.getModelAndView();
         map.put("user_type","1");  //用户类型
         map.put("status","2");    //状态码
         map.put("msg","帐户管理！");   //状态消息
@@ -102,7 +103,36 @@ public class UserCenterController extends BaseController{
             map.put("result", result);
             logAfter(logger);
         }
-        return AppUtil.returnObject(new PageData(), map);
+        mv.setViewName("front/userCenter/accountManage");
+        return mv;
+    }
+
+    /**
+     *我的收藏
+     * @return
+     */
+    @RequestMapping(value="/collection")
+    @ResponseBody
+    public ModelAndView collection(){
+        logBefore(logger, "我的收藏");
+        Map<String,Object> map = new HashMap<String,Object>();
+        ModelAndView mv = this.getModelAndView();
+        map.put("user_type","1");  //用户类型
+        map.put("status","2");    //状态码
+        map.put("msg","帐户管理！");   //状态消息
+        PageData pd = new PageData();
+        pd = this.getPageData();
+        String result = "00";
+        try{
+
+        }catch (Exception e){
+            logger.error(e.toString(), e);
+        }finally{
+            map.put("result", result);
+            logAfter(logger);
+        }
+        mv.setViewName("front/userCenter/collection");
+        return mv;
     }
 
 
@@ -156,6 +186,78 @@ public class UserCenterController extends BaseController{
             logAfter(logger);
         }
         return AppUtil.returnObject(new PageData(), map);
+    }
+
+    /**
+     * 个性订阅
+     * @return
+     */
+    @RequestMapping(value="/subscribe")
+    public ModelAndView subscribe(){
+        logBefore(logger, "个性订阅");
+        ModelAndView mv = this.getModelAndView();
+        Map<String,Object> map = new HashMap<String,Object>();
+        PageData pd = new PageData();
+        pd = this.getPageData();
+        String result = "00";
+        try{
+
+        }catch (Exception e){
+
+        }finally {
+            map.put("result", result);
+            logAfter(logger);
+        }
+        mv.setViewName("front/userCenter/subscribe");
+        return mv;
+    }
+
+    /**
+     * 收藏页面
+     * @return
+     */
+    @RequestMapping(value="/favoritesAdd")
+    public ModelAndView favoritesAdd(){
+        logBefore(logger, "收藏页面");
+        ModelAndView mv = this.getModelAndView();
+        Map<String,Object> map = new HashMap<String,Object>();
+        PageData pd = new PageData();
+        pd = this.getPageData();
+        String result = "00";
+        try{
+
+        }catch (Exception e){
+
+        }finally {
+            map.put("result", result);
+            logAfter(logger);
+        }
+        mv.setViewName("front/userCenter/favoritesAdd");
+        return mv;
+    }
+
+    /**
+     * 用户中心
+     * @return
+     */
+    @RequestMapping(value="/userCenter")
+    public ModelAndView userCenter(){
+        logBefore(logger, "用户中心");
+        ModelAndView mv = this.getModelAndView();
+        Map<String,Object> map = new HashMap<String,Object>();
+        PageData pd = new PageData();
+        pd = this.getPageData();
+        String result = "00";
+        try{
+
+        }catch (Exception e){
+
+        }finally {
+            map.put("result", result);
+            logAfter(logger);
+        }
+        mv.setViewName("front/userCenter/userCenter");
+        return mv;
     }
 
     /**
